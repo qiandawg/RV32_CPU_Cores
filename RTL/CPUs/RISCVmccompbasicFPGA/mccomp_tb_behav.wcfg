@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mccomp_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mccomp_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1531708fs"></ZoomStartTime>
+      <ZoomEndTime time="1576409fs"></ZoomEndTime>
+      <Cursor1Time time="1524000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="149"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/mccomp_tb/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[48:1]</obj_property>
+      <obj_property name="ObjectShortName">opcode[48:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/desc" type="array">
+      <obj_property name="ElementShortName">desc[224:1]</obj_property>
+      <obj_property name="ObjectShortName">desc[224:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/rs" type="array">
+      <obj_property name="ElementShortName">rs[40:1]</obj_property>
+      <obj_property name="ObjectShortName">rs[40:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/rt" type="array">
+      <obj_property name="ElementShortName">rt[40:1]</obj_property>
+      <obj_property name="ObjectShortName">rt[40:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/rd" type="array">
+      <obj_property name="ElementShortName">rd[40:1]</obj_property>
+      <obj_property name="ObjectShortName">rd[40:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/imm" type="array">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/branch_addr" type="array">
+      <obj_property name="ElementShortName">branch_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/jump_addr" type="array">
+      <obj_property name="ElementShortName">jump_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/instr_spy" type="array">
+      <obj_property name="ElementShortName">instr_spy[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_spy[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/pc4_spy" type="array">
+      <obj_property name="ElementShortName">pc4_spy[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc4_spy[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/memclk" type="logic">
+      <obj_property name="ElementShortName">memclk</obj_property>
+      <obj_property name="ObjectShortName">memclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/alu" type="array">
+      <obj_property name="ElementShortName">alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/adr" type="array">
+      <obj_property name="ElementShortName">adr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/tom" type="array">
+      <obj_property name="ElementShortName">tom[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tom[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/fromm" type="array">
+      <obj_property name="ElementShortName">fromm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fromm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/ir" type="array">
+      <obj_property name="ElementShortName">ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/IO_Switch" type="array">
+      <obj_property name="ElementShortName">IO_Switch[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_Switch[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/IO_PB" type="array">
+      <obj_property name="ElementShortName">IO_PB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_PB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/IO_LED" type="array">
+      <obj_property name="ElementShortName">IO_LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/IO_7SEGEN_N" type="array">
+      <obj_property name="ElementShortName">IO_7SEGEN_N[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_7SEGEN_N[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/IO_7SEG_N" type="array">
+      <obj_property name="ElementShortName">IO_7SEG_N[6:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_7SEG_N[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/IO_BUZZ" type="logic">
+      <obj_property name="ElementShortName">IO_BUZZ</obj_property>
+      <obj_property name="ObjectShortName">IO_BUZZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/IO_SPI_SDO" type="logic">
+      <obj_property name="ElementShortName">IO_SPI_SDO</obj_property>
+      <obj_property name="ObjectShortName">IO_SPI_SDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/IO_SPI_RS" type="logic">
+      <obj_property name="ElementShortName">IO_SPI_RS</obj_property>
+      <obj_property name="ObjectShortName">IO_SPI_RS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/IO_SPI_SCK" type="logic">
+      <obj_property name="ElementShortName">IO_SPI_SCK</obj_property>
+      <obj_property name="ObjectShortName">IO_SPI_SCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/UART_RX" type="logic">
+      <obj_property name="ElementShortName">UART_RX</obj_property>
+      <obj_property name="ObjectShortName">UART_RX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/JC" type="array">
+      <obj_property name="ElementShortName">JC[10:1]</obj_property>
+      <obj_property name="ObjectShortName">JC[10:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/JA" type="array">
+      <obj_property name="ElementShortName">JA[4:1]</obj_property>
+      <obj_property name="ObjectShortName">JA[4:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/JB" type="array">
+      <obj_property name="ElementShortName">JB[8:1]</obj_property>
+      <obj_property name="ObjectShortName">JB[8:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/BTNU" type="logic">
+      <obj_property name="ElementShortName">BTNU</obj_property>
+      <obj_property name="ObjectShortName">BTNU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/BTND" type="logic">
+      <obj_property name="ElementShortName">BTND</obj_property>
+      <obj_property name="ObjectShortName">BTND</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/BTNL" type="logic">
+      <obj_property name="ElementShortName">BTNL</obj_property>
+      <obj_property name="ObjectShortName">BTNL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/BTNC" type="logic">
+      <obj_property name="ElementShortName">BTNC</obj_property>
+      <obj_property name="ObjectShortName">BTNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/BTNR" type="logic">
+      <obj_property name="ElementShortName">BTNR</obj_property>
+      <obj_property name="ObjectShortName">BTNR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mccomp_tb/UART_TXD_IN" type="logic">
+      <obj_property name="ElementShortName">UART_TXD_IN</obj_property>
+      <obj_property name="ObjectShortName">UART_TXD_IN</obj_property>
+   </wvobject>
+</wave_config>

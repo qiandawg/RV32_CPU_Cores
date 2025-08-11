@@ -1,0 +1,599 @@
+
+*** Running vivado
+    with args -log mfp_nexys4_ddr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mfp_nexys4_ddr.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Sat Aug  2 00:50:23 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+WARNING: [Runs 36-547] User Strategy 'Vivado Implementation Defaults' from file 'C:\Users\lamqi\AppData\Roaming/Xilinx/Vivado/2024.2/strategies/Vivado Implementation Defaults.Vivado Implementation 2020.psg' discarded because strategy with same name already parsed from 'C:/Xilinx/Vivado/2024.2/strategies/VDI2020.psg'
+source mfp_nexys4_ddr.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 619.969 ; gain = 191.844
+Command: synth_design -top mfp_nexys4_ddr -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 50540
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1328.918 ; gain = 466.965
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'mie' is not allowed [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:33]
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'mip' is not allowed [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:37]
+INFO: [Synth 8-11241] undeclared symbol 'regrt', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_cu_intr.v:151]
+INFO: [Synth 8-11241] undeclared symbol 'int_sync', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_interrupt_sys.v:83]
+INFO: [Synth 8-11241] undeclared symbol 'intr_ack', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_interrupt_sys.v:84]
+INFO: [Synth 8-11241] undeclared symbol 'wsta', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:118]
+INFO: [Synth 8-11241] undeclared symbol 'wcau', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:118]
+INFO: [Synth 8-11241] undeclared symbol 'wepc', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:118]
+INFO: [Synth 8-11241] undeclared symbol 'csr_en', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:119]
+INFO: [Synth 8-11241] undeclared symbol 'cu_intr_ack', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:119]
+WARNING: [Synth 8-6901] identifier 'mstatus' is used before its declaration [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:77]
+WARNING: [Synth 8-6901] identifier 'mstatus' is used before its declaration [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:78]
+INFO: [Synth 8-11241] undeclared symbol 'CPU_RESET', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mfp_nexys4_ddr.v:45]
+INFO: [Synth 8-11241] undeclared symbol 'intr', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mfp_nexys4_ddr.v:64]
+INFO: [Synth 8-11241] undeclared symbol 'inta', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mfp_nexys4_ddr.v:88]
+INFO: [Synth 8-6157] synthesizing module 'mfp_nexys4_ddr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mfp_nexys4_ddr.v:18]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1/.Xil/Vivado-56496-QianPC/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1/.Xil/Vivado-56496-QianPC/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'button_debounce' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/button_debounce.v:24]
+	Parameter DEBOUNCE_PERIOD bound to: 1000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'button_debounce' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/button_debounce.v:24]
+INFO: [Synth 8-6157] synthesizing module 'sc_interrupt_sys' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_interrupt_sys.v:24]
+INFO: [Synth 8-6157] synthesizing module 'sccpu_intr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:6]
+INFO: [Synth 8-6157] synthesizing module 'sc_cu_intr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_cu_intr.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sc_cu_intr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_cu_intr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dff32' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/sccompintFPGA/dff32.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dff32' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/sccompintFPGA/dff32.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pc4' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/pc4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pc4' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/pc4.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux2x32' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mux2x32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux2x32' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mux2x32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux4x32' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mux4x32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux4x32' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mux4x32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu_ov' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/alu_ov.v:14]
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/alu_ov.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'alu_ov' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/alu_ov.v:14]
+INFO: [Synth 8-6157] synthesizing module 'csr_unit' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:73]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:80]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:87]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:94]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:101]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:108]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'csr_unit' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'jal_addr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/jal_addr.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'jal_addr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/jal_addr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'jalr_addr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/jalr_addr.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'jalr_addr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/jalr_addr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'imme' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/imme.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'imme' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/imme.v:1]
+INFO: [Synth 8-6157] synthesizing module 'branch_addr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/branch_addr.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'branch_addr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/branch_addr.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sccpu_intr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:6]
+INFO: [Synth 8-6157] synthesizing module 'uram' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/uram.v:2]
+	Parameter A_WIDTH bound to: 8 - type: integer 
+	Parameter INIT_FILE bound to: C:/JHU_Classes/RISC_V/riscv-cpu/Software/Assembly/RISCVsc_intTest/imem.mem - type: string 
+	Parameter READ_DELAY bound to: 0 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/JHU_Classes/RISC_V/riscv-cpu/Software/Assembly/RISCVsc_intTest/imem.mem' is read successfully [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/uram.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'uram' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/uram.v:2]
+INFO: [Synth 8-6157] synthesizing module 'uram__parameterized0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/uram.v:2]
+	Parameter A_WIDTH bound to: 8 - type: integer 
+	Parameter INIT_FILE bound to: C:/JHU_Classes/RISC_V/riscv-cpu/Software/Assembly/RISCVsc_intTest/dmem.mem - type: string 
+	Parameter READ_DELAY bound to: 0 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/JHU_Classes/RISC_V/riscv-cpu/Software/Assembly/RISCVsc_intTest/dmem.mem' is read successfully [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/uram.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'uram__parameterized0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/uram.v:2]
+INFO: [Synth 8-6157] synthesizing module 'sccomp_decoder' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccomp_decoder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sccomp_decoder' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccomp_decoder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cpugpio' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/cpugpio.v:9]
+INFO: [Synth 8-6157] synthesizing module 'milliscounter' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/milliscounter.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'milliscounter' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/milliscounter.v:7]
+INFO: [Synth 8-6157] synthesizing module 'buzzer' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v:7]
+INFO: [Synth 8-6157] synthesizing module 'regR' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'regR' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v:66]
+INFO: [Synth 8-6157] synthesizing module 'microsCounter' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'microsCounter' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v:30]
+INFO: [Synth 8-6157] synthesizing module 'toggleBuzz' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'toggleBuzz' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'buzzer' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v:7]
+INFO: [Synth 8-6157] synthesizing module 'SPI_Master' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/SPI_Master.v:56]
+	Parameter SPI_MODE bound to: 3 - type: integer 
+	Parameter CLKS_PER_HALF_BIT bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SPI_Master' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/SPI_Master.v:56]
+INFO: [Synth 8-6157] synthesizing module 'pmod_als_spi_receiver' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/pmod_als_spi_receiver.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pmod_als_spi_receiver' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/pmod_als_spi_receiver.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sevensegtimer' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:7]
+INFO: [Synth 8-6157] synthesizing module 'sevensegdec' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/sevensegdec.v:7]
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/sevensegdec.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'sevensegdec' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/sevensegdec.v:7]
+INFO: [Synth 8-6157] synthesizing module 'counter' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:51]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:51]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:51]
+	Parameter WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:51]
+INFO: [Synth 8-6157] synthesizing module 'mux8' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:64]
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mux8' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:64]
+INFO: [Synth 8-6157] synthesizing module 'mux8__parameterized0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:64]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mux8__parameterized0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'sevensegtimer' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v:7]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/cpugpio.v:153]
+INFO: [Synth 8-6155] done synthesizing module 'cpugpio' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/cpugpio.v:9]
+WARNING: [Synth 8-7071] port 'dataout_ready' of module 'cpugpio' is unconnected for instance 'gpio' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_interrupt_sys.v:131]
+WARNING: [Synth 8-7023] instance 'gpio' of module 'cpugpio' has 24 connections declared, but only 23 given [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_interrupt_sys.v:131]
+INFO: [Synth 8-6157] synthesizing module 'debug_control' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/uart-debug/debug_control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cmdproc' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v:22]
+	Parameter CLKS_PER_BIT bound to: 434 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'UART_TX' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:14]
+	Parameter CLKS_PER_BIT bound to: 434 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'UART_TX' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:14]
+INFO: [Synth 8-6157] synthesizing module 'UART_RX' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v:15]
+	Parameter CLKS_PER_BIT bound to: 434 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'UART_RX' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v:15]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v:279]
+INFO: [Synth 8-6155] done synthesizing module 'cmdproc' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'debug_control' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/uart-debug/debug_control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sc_interrupt_sys' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_interrupt_sys.v:24]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mfp_nexys4_ddr.v:108]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1/.Xil/Vivado-56496-QianPC/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1/.Xil/Vivado-56496-QianPC/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mfp_nexys4_ddr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mfp_nexys4_ddr.v:18]
+WARNING: [Synth 8-6014] Unused sequential element r_TX_DV_reg was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/SPI_Master.v:172]
+WARNING: [Synth 8-6014] Unused sequential element IOwait_counter_reg was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/cpugpio.v:76]
+WARNING: [Synth 8-6014] Unused sequential element IOready_reg was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/cpugpio.v:77]
+WARNING: [Synth 8-7137] Register o_TX_Serial_reg in module UART_TX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:53]
+WARNING: [Synth 8-7137] Register r_Clock_Count_reg in module UART_TX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:55]
+WARNING: [Synth 8-7137] Register r_Bit_Index_reg in module UART_TX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:56]
+WARNING: [Synth 8-7137] Register r_TX_Data_reg in module UART_TX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:61]
+WARNING: [Synth 8-7137] Register r_Clock_Count_reg in module UART_RX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v:50]
+WARNING: [Synth 8-7137] Register r_Bit_Index_reg in module UART_RX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v:51]
+WARNING: [Synth 8-7137] Register o_RX_Byte_reg in module UART_RX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v:91]
+WARNING: [Synth 8-6014] Unused sequential element in_buf_reg[1] was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v:145]
+WARNING: [Synth 8-7137] Register tx_complete_reg in module cmdproc has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v:359]
+WARNING: [Synth 8-3848] Net inta in module/entity sc_interrupt_sys does not have driver. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_interrupt_sys.v:35]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'sc_interrupt_sys'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mfp_nexys4_ddr.v:77]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'my_ila'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mfp_nexys4_ddr.v:108]
+WARNING: [Synth 8-7129] Port HADDR[31] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[30] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[29] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[21] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[20] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[19] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[18] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[17] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[16] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[15] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[14] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[13] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[12] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[11] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[10] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[9] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[8] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[7] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[6] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[5] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[4] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[3] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[2] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[1] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[0] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[24] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[23] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[22] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[21] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[20] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[19] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[18] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[17] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[16] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[15] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[14] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[13] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[12] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[19] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[18] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[17] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[16] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[15] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[14] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[13] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[12] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[11] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[10] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[9] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[8] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[7] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[11] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[10] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[9] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[8] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[7] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port intr_synced in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[31] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[30] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[29] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[28] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[27] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[26] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[25] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[24] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[23] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[22] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[21] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[20] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[19] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[18] in module sc_cu_intr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mstatus[17] in module sc_cu_intr is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1462.227 ; gain = 600.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1462.227 ; gain = 600.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1462.227 ; gain = 600.273
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1462.227 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'my_ila'
+Finished Parsing XDC File [c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'my_ila'
+Parsing XDC File [c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Finished Parsing XDC File [c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Parsing XDC File [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc]
+WARNING: [Vivado 12-584] No ports matched 'LED16_B'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'LED16_G'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:51]
+WARNING: [Vivado 12-584] No ports matched 'LED16_R'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:52]
+WARNING: [Vivado 12-584] No ports matched 'LED17_B'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:53]
+WARNING: [Vivado 12-584] No ports matched 'LED17_G'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:54]
+WARNING: [Vivado 12-584] No ports matched 'LED17_R'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:55]
+WARNING: [Vivado 12-584] No ports matched 'DP'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:68]
+WARNING: [Vivado 12-584] No ports matched 'JA[7]'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:100]
+WARNING: [Vivado 12-584] No ports matched 'JA[8]'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:101]
+WARNING: [Vivado 12-584] No ports matched 'JA[9]'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:102]
+WARNING: [Vivado 12-584] No ports matched 'JA[10]'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:103]
+WARNING: [Vivado 12-584] No ports matched 'JB[7]'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:112]
+WARNING: [Vivado 12-584] No ports matched 'JB[8]'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:113]
+WARNING: [Vivado 12-584] No ports matched 'JB[9]'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:114]
+WARNING: [Vivado 12-584] No ports matched 'JB[10]'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:115]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk_virt' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:256]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'tck' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc:260]
+Finished Parsing XDC File [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/mfp_nexys4_ddr_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mfp_nexys4_ddr_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mfp_nexys4_ddr_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1570.824 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1570.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1570.824 ; gain = 708.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1570.824 ; gain = 708.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for my_ila. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1570.824 ; gain = 708.871
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'r_SM_Main_reg' in module 'UART_TX'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'cmdproc'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                              000
+            TX_START_BIT |                              001 |                              001
+            TX_DATA_BITS |                              010 |                              010
+             TX_STOP_BIT |                              011 |                              011
+              TX_FRAMING |                              100 |                              110
+                 CLEANUP |                              101 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_SM_Main_reg' using encoding 'sequential' in module 'UART_TX'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+           STATE_UART_RX |                               00 |                               00
+           STATE_PROCESS |                               01 |                               01
+      STATE_STRING_BUILD |                               10 |                               10
+           STATE_UART_TX |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'cmdproc'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1570.824 ; gain = 708.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 5     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   27 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 6     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 45    
+	               27 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 32    
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 4     
+	                3 Bit    Registers := 7     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 38    
++---RAMs : 
+	               8K Bit	(256 X 32 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 38    
+	   4 Input   32 Bit        Muxes := 8     
+	   6 Input   10 Bit        Muxes := 1     
+	   6 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 20    
+	   6 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 8     
+	   7 Input    8 Bit        Muxes := 8     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 10    
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 11    
+	   6 Input    3 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 106   
+	   4 Input    1 Bit        Muxes := 2     
+	  11 Input    1 Bit        Muxes := 10    
+	   6 Input    1 Bit        Muxes := 11    
+	   3 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1623.754 ; gain = 761.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++-----------------+--------------+-----------+----------------------+-----------------+
+|Module Name      | RTL Object   | Inference | Size (Depth x Width) | Primitives      | 
++-----------------+--------------+-----------+----------------------+-----------------+
+|sc_interrupt_sys | imem/ram_reg | Implied   | 256 x 32             | RAM256X1S x 32  | 
+|sc_interrupt_sys | dmem/ram_reg | Implied   | 256 x 32             | RAM256X1S x 32  | 
++-----------------+--------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 1657.605 ; gain = 795.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 1715.867 ; gain = 853.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++-----------------+--------------+-----------+----------------------+-----------------+
+|Module Name      | RTL Object   | Inference | Size (Depth x Width) | Primitives      | 
++-----------------+--------------+-----------+----------------------+-----------------+
+|sc_interrupt_sys | imem/ram_reg | Implied   | 256 x 32             | RAM256X1S x 32  | 
+|sc_interrupt_sys | dmem/ram_reg | Implied   | 256 x 32             | RAM256X1S x 32  | 
++-----------------+--------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 1795.219 ; gain = 933.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1900.156 ; gain = 1038.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1900.156 ; gain = 1038.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1900.156 ; gain = 1038.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1900.156 ; gain = 1038.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:03 ; elapsed = 00:01:09 . Memory (MB): peak = 1900.156 ; gain = 1038.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:03 ; elapsed = 00:01:09 . Memory (MB): peak = 1900.156 ; gain = 1038.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |ila_0         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |clk_wiz   |     1|
+|2     |ila       |     1|
+|3     |CARRY4    |   101|
+|4     |LUT1      |    78|
+|5     |LUT2      |   291|
+|6     |LUT3      |   260|
+|7     |LUT4      |   244|
+|8     |LUT5      |   413|
+|9     |LUT6      |  1253|
+|10    |MUXF7     |   267|
+|11    |MUXF8     |     4|
+|12    |RAM256X1S |    64|
+|13    |FDCE      |  1726|
+|14    |FDPE      |    47|
+|15    |FDRE      |   167|
+|16    |IBUF      |    26|
+|17    |OBUF      |    42|
+|18    |OBUFT     |     6|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:03 ; elapsed = 00:01:09 . Memory (MB): peak = 1900.156 ; gain = 1038.203
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 89 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:57 ; elapsed = 00:01:07 . Memory (MB): peak = 1900.156 ; gain = 929.605
+Synthesis Optimization Complete : Time (s): cpu = 00:01:03 ; elapsed = 00:01:09 . Memory (MB): peak = 1900.156 ; gain = 1038.203
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1909.305 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 436 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1912.977 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 64 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 64 instances
+
+Synth Design complete | Checksum: 23a04115
+INFO: [Common 17-83] Releasing license: Synthesis
+129 Infos, 137 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:07 ; elapsed = 00:01:15 . Memory (MB): peak = 1912.977 ; gain = 1250.086
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1912.977 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1/mfp_nexys4_ddr.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file mfp_nexys4_ddr_utilization_synth.rpt -pb mfp_nexys4_ddr_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Aug  2 00:51:49 2025...

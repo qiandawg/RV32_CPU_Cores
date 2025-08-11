@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Jun  1 18:20:18 2025
+# Process ID         : 33400
+# Current directory  : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent11960 C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVpipelineRV32IM\RISCVpipelineRV32IM.xpr
+# Log file           : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/vivado.log
+# Journal file       : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM\vivado.jou
+# Running On         : QianPC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i9-12900H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16848 MB
+# Swap memory        : 30064 MB
+# Total Virtual      : 46913 MB
+# Available Virtual  : 13040 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+close_sim
+update_compile_order -fileset sim_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/opcode}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/opcode}} {{/pipelinedcpu_tb/desc}} {{/pipelinedcpu_tb/rs}} {{/pipelinedcpu_tb/rt}} {{/pipelinedcpu_tb/rd}} {{/pipelinedcpu_tb/imm}} {{/pipelinedcpu_tb/branch_addr}} {{/pipelinedcpu_tb/jump_addr}} {{/pipelinedcpu_tb/instr_spy}} {{/pipelinedcpu_tb/pc4_spy}} {{/pipelinedcpu_tb/clk}} {{/pipelinedcpu_tb/clrn}} {{/pipelinedcpu_tb/pc}} {{/pipelinedcpu_tb/inst}} {{/pipelinedcpu_tb/eal}} {{/pipelinedcpu_tb/mal}} {{/pipelinedcpu_tb/wres}} {{/pipelinedcpu_tb/IO_Switch}} {{/pipelinedcpu_tb/IO_PB}} {{/pipelinedcpu_tb/IO_LED}} {{/pipelinedcpu_tb/IO_7SEGEN_N}} {{/pipelinedcpu_tb/IO_7SEG_N}} {{/pipelinedcpu_tb/IO_BUZZ}} {{/pipelinedcpu_tb/IO_SPI_SDO}} {{/pipelinedcpu_tb/IO_SPI_RS}} {{/pipelinedcpu_tb/IO_SPI_SCK}} {{/pipelinedcpu_tb/UART_RX}} {{/pipelinedcpu_tb/JC}} {{/pipelinedcpu_tb/JA}} {{/pipelinedcpu_tb/JB}} {{/pipelinedcpu_tb/UART_TXD_IN}} 
+restart
+run 100000 ns
+import_files -norecurse {{C:/JHU_Classes/RISC_V/FPU files/fadd/reg_align_cal.v} {C:/JHU_Classes/RISC_V/FPU files/fadd/fadd_align.v} {C:/JHU_Classes/RISC_V/FPU files/fadd/reg_cal_norm.v} {C:/JHU_Classes/RISC_V/FPU files/fadd/fadd_cal.v} {C:/JHU_Classes/RISC_V/FPU files/fpu/mux2x5.v} {C:/JHU_Classes/RISC_V/FPU files/fadd/pipelined_fadder.v} {C:/JHU_Classes/RISC_V/FPU files/fpu/fpu.v} {C:/JHU_Classes/RISC_V/FPU files/fpu/mux2x32.v} {C:/JHU_Classes/RISC_V/FPU files/fadd/fadd_norm.v} {C:/JHU_Classes/RISC_V/FPU files/fpu/mux4x32.v}}
+close_sim

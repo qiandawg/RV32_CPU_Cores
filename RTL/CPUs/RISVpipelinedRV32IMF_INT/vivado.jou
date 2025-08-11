@@ -1,0 +1,461 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Aug  8 19:36:26 2025
+# Process ID         : 16844
+# Current directory  : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent47964 C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISVpipelinedRV32IMF_INT\RISVpipelinedRV32IMF_INT.xpr
+# Log file           : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/vivado.log
+# Journal file       : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT\vivado.jou
+# Running On         : QianPC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i9-12900H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16848 MB
+# Swap memory        : 32212 MB
+# Total Virtual      : 49060 MB
+# Available Virtual  : 23162 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.xpr
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/op}} 
+restart
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/pc}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/npc}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/selpc}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/mret}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/take_trap_r}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/wpcir}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/n_pc}} 
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/i_csr}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/i_csr}} {{/pipelinedcpu_tb/cpu/id_stage/cu/i_csrrw}} {{/pipelinedcpu_tb/cpu/id_stage/cu/i_csrrs}} {{/pipelinedcpu_tb/cpu/id_stage/cu/csr_rw}} {{/pipelinedcpu_tb/cpu/id_stage/cu/csr_en}} {{/pipelinedcpu_tb/cpu/id_stage/cu/i_mret}} {{/pipelinedcpu_tb/cpu/id_stage/cu/i_ecall}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/trap_vector}} {{/pipelinedcpu_tb/cpu/trap_if_v}} {{/pipelinedcpu_tb/cpu/trap_id_v}} {{/pipelinedcpu_tb/cpu/trap_ex_v}} {{/pipelinedcpu_tb/cpu/trap_mem_v}} {{/pipelinedcpu_tb/cpu/take_trap_r}} {{/pipelinedcpu_tb/cpu/trap_pc_source_r}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/intr_id}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/ecall_id}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/illegal_id}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/op}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/i_addi}} 
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/ecancel}} {{/pipelinedcpu_tb/cpu/id_stage/cu/cancel}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/exe_stage/overflow}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr/csr_wdata}} 
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr/csr_cmd}} 
+restart
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/SI_CLK100MHZ}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/clk}} 
+close [ open C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sources_1/new/csr_unit_pipeline_adapter.v w ]
+add_files C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sources_1/new/csr_unit_pipeline_adapter.v
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr_unit_adapter}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/opcode}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/opcode}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/pc}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/n_pc}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/func3}} 
+restart
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/func3}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/func3}} 
+restart
+run 10000 ns
+relaunch_sim
+relaunch_sim
+set incdir ./include
+set_property include_dirs $incdir [get_filesets sim_1]
+set_property include_dirs $incdir [get_filesets sources_1]
+relaunch_sim
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+set_property is_global_include true [get_files  C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sources_1/imports/mips-cpu/RTL/Common/mfp_ahb_const.vh]
+close_sim
+close_project
+open_project C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.xpr
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/inst}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu}} 
+restart
+run 10000 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/inst}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/ins}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/fd_reg}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/opcode}} 
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/csr_addr}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/pc}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr_unit_adapter}} 
+restart
+run 10000 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr_en}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/opcode}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr_unit_adapter/csr_en_to_unit}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr_unit_adapter/u}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/qa}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/r_f}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr_unit_adapter}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/wfunc3}} 
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/trap_in_mem}} {{/pipelinedcpu_tb/cpu/trap_in_ex}} {{/pipelinedcpu_tb/cpu/trap_in_id}} {{/pipelinedcpu_tb/cpu/trap_in_if}} 
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/trap_id_v}} 
+restart
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/i_ecall}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/ecancel}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/id_v}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/func3}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/func7}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/csr_addr}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/inst}} 
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/qa}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/i_csr}} {{/pipelinedcpu_tb/cpu/id_stage/cu/i_csrrw}} {{/pipelinedcpu_tb/cpu/id_stage/cu/i_csrrs}} {{/pipelinedcpu_tb/cpu/id_stage/cu/csr_rw}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/opcode}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/qb}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/rs1}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/rs2}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/wreg}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/i_csrrs}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr_wdata_wb}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/da}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr_rdata_ex}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/eal}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/r_f/register[6]}} 
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr_unit_adapter/mcause}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr_unit_adapter/mstatus}} {{/pipelinedcpu_tb/cpu/csr_unit_adapter/mie}} {{/pipelinedcpu_tb/cpu/csr_unit_adapter/mip}} {{/pipelinedcpu_tb/cpu/csr_unit_adapter/mepc}} {{/pipelinedcpu_tb/cpu/csr_unit_adapter/mcause}} {{/pipelinedcpu_tb/cpu/csr_unit_adapter/mtvec}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/mret}} 
+restart
+run 10000 ns
+relaunch_sim
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/exe_stage/ecall}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/pc}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/r_f/register[7]}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/i_jalr}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/pcsrc}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/ecancel}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/wpcir}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/fwdfa}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/fwda}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/stall_lw}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/jalrad}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/da}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/selpc}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/take_trap}} {{/pipelinedcpu_tb/cpu/take_trap_raw}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/take_trap_pc}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/npc}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/pc}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/exe_stage/overflow}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/mepc}} 
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/i_bne}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/csr_unit_adapter/intr_synced}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/id_stage/cu/i_ecall}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/inst}} 
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/pipeif}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg
+source pipelinedcpu_tb.tcl
+relaunch_sim
+run 10000 ns
+relaunch_sim
+run 10000 ns
+current_wave_config {pipelinedcpu_tb_behav.wcfg}
+add_wave {{/pipelinedcpu_tb/cpu/IO_Switch}} {{/pipelinedcpu_tb/cpu/IO_PB}} {{/pipelinedcpu_tb/cpu/IO_LED}} {{/pipelinedcpu_tb/cpu/IO_7SEGEN_N}} {{/pipelinedcpu_tb/cpu/IO_7SEG_N}} 
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/imports/RISCVpipelineRV32IM/pipelinedcpu_tb_behav.wcfg}
+restart
+run 10000 ns
+close_sim

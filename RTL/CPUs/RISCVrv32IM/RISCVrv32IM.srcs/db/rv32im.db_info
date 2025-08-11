@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+Quartus_Version = Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Version_Index = 302049280
+Creation_Time = Thu Feb 22 13:45:43 2024
+=======
+Quartus_Version = Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Version_Index = 302049280
+Creation_Time = Thu Feb 22 13:45:43 2024
+>>>>>>> 6c103d1 (dded RISCVrv31IM 0 single cycle RISCV with multiply and divide. Also)

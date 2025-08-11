@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sc_computer_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sc_computer_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="100002083fs"></ZoomStartTime>
+      <ZoomEndTime time="100131584fs"></ZoomEndTime>
+      <Cursor1Time time="100000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="335" />
+   <wvobject fp_name="/sc_computer_tb/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[48:1]</obj_property>
+      <obj_property name="ObjectShortName">opcode[48:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/desc" type="array">
+      <obj_property name="ElementShortName">desc[224:1]</obj_property>
+      <obj_property name="ObjectShortName">desc[224:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/rs" type="array">
+      <obj_property name="ElementShortName">rs[40:1]</obj_property>
+      <obj_property name="ObjectShortName">rs[40:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/rt" type="array">
+      <obj_property name="ElementShortName">rt[40:1]</obj_property>
+      <obj_property name="ObjectShortName">rt[40:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/rd" type="array">
+      <obj_property name="ElementShortName">rd[40:1]</obj_property>
+      <obj_property name="ObjectShortName">rd[40:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/IO_LED" type="array">
+      <obj_property name="ElementShortName">IO_LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/IO_Switch" type="array">
+      <obj_property name="ElementShortName">IO_Switch[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_Switch[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/rna" type="array">
+      <obj_property name="ElementShortName">rna[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rna[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/rnb" type="array">
+      <obj_property name="ElementShortName">rnb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rnb[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/wn" type="array">
+      <obj_property name="ElementShortName">wn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/mul_fuse" type="logic">
+      <obj_property name="ElementShortName">mul_fuse</obj_property>
+      <obj_property name="ObjectShortName">mul_fuse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rem_fuse" type="logic">
+      <obj_property name="ElementShortName">rem_fuse</obj_property>
+      <obj_property name="ObjectShortName">rem_fuse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/wpc" type="logic">
+      <obj_property name="ElementShortName">wpc</obj_property>
+      <obj_property name="ObjectShortName">wpc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/i_div" type="logic">
+      <obj_property name="ElementShortName">i_div</obj_property>
+      <obj_property name="ObjectShortName">i_div</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/i_divu" type="logic">
+      <obj_property name="ElementShortName">i_divu</obj_property>
+      <obj_property name="ObjectShortName">i_divu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/i_mul" type="logic">
+      <obj_property name="ElementShortName">i_mul</obj_property>
+      <obj_property name="ObjectShortName">i_mul</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/mdwait" type="logic">
+      <obj_property name="ElementShortName">mdwait</obj_property>
+      <obj_property name="ObjectShortName">mdwait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/rv32m" type="logic">
+      <obj_property name="ElementShortName">rv32m</obj_property>
+      <obj_property name="ObjectShortName">rv32m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/wpc" type="logic">
+      <obj_property name="ElementShortName">wpc</obj_property>
+      <obj_property name="ObjectShortName">wpc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/counter" type="array">
+      <obj_property name="ElementShortName">counter[5:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/counting" type="logic">
+      <obj_property name="ElementShortName">counting</obj_property>
+      <obj_property name="ObjectShortName">counting</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/start_short_now" type="logic">
+      <obj_property name="ElementShortName">start_short_now</obj_property>
+      <obj_property name="ObjectShortName">start_short_now</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/start_long_now" type="logic">
+      <obj_property name="ElementShortName">start_long_now</obj_property>
+      <obj_property name="ObjectShortName">start_long_now</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/starting" type="logic">
+      <obj_property name="ElementShortName">starting</obj_property>
+      <obj_property name="ObjectShortName">starting</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/qa" type="array">
+      <obj_property name="ElementShortName">qa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/qb" type="array">
+      <obj_property name="ElementShortName">qb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/register" type="array">
+      <obj_property name="ElementShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/aluout" type="array">
+      <obj_property name="ElementShortName">aluout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/memout" type="array">
+      <obj_property name="ElementShortName">memout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/IO_Switch" type="array">
+      <obj_property name="ElementShortName">IO_Switch[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_Switch[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/IO_LED" type="array">
+      <obj_property name="ElementShortName">IO_LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/alu" type="array">
+      <obj_property name="ElementShortName">alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/data" type="array">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/func3" type="array">
+      <obj_property name="ElementShortName">func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/func7" type="array">
+      <obj_property name="ElementShortName">func7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">func7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/imm" type="array">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/addr" type="array">
+      <obj_property name="ElementShortName">addr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/aluc" type="array">
+      <obj_property name="ElementShortName">aluc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluc[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/pcsrc" type="array">
+      <obj_property name="ElementShortName">pcsrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcsrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/wreg" type="logic">
+      <obj_property name="ElementShortName">wreg</obj_property>
+      <obj_property name="ObjectShortName">wreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/bimm" type="logic">
+      <obj_property name="ElementShortName">bimm</obj_property>
+      <obj_property name="ObjectShortName">bimm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/m2reg" type="logic">
+      <obj_property name="ElementShortName">m2reg</obj_property>
+      <obj_property name="ObjectShortName">m2reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/alui" type="array">
+      <obj_property name="ElementShortName">alui[1:0]</obj_property>
+      <obj_property name="ObjectShortName">alui[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/call" type="logic">
+      <obj_property name="ElementShortName">call</obj_property>
+      <obj_property name="ObjectShortName">call</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/wmem" type="logic">
+      <obj_property name="ElementShortName">wmem</obj_property>
+      <obj_property name="ObjectShortName">wmem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/qa" type="array">
+      <obj_property name="ElementShortName">qa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/qb" type="array">
+      <obj_property name="ElementShortName">qb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/wd" type="array">
+      <obj_property name="ElementShortName">wd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32m" type="logic">
+      <obj_property name="ElementShortName">rv32m</obj_property>
+      <obj_property name="ObjectShortName">rv32m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/z" type="logic">
+      <obj_property name="ElementShortName">z</obj_property>
+      <obj_property name="ObjectShortName">z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/r" type="array">
+      <obj_property name="ElementShortName">r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/aluwrv32m" type="array">
+      <obj_property name="ElementShortName">aluwrv32m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluwrv32m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/c_rv32m" type="array">
+      <obj_property name="ElementShortName">c_rv32m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rv32m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32m" type="logic">
+      <obj_property name="ElementShortName">rv32m</obj_property>
+      <obj_property name="ObjectShortName">rv32m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/ready_signed" type="logic">
+      <obj_property name="ElementShortName">ready_signed</obj_property>
+      <obj_property name="ObjectShortName">ready_signed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/ready_unsigned" type="logic">
+      <obj_property name="ElementShortName">ready_unsigned</obj_property>
+      <obj_property name="ObjectShortName">ready_unsigned</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/start_sdivide" type="logic">
+      <obj_property name="ElementShortName">start_sdivide</obj_property>
+      <obj_property name="ObjectShortName">start_sdivide</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/start_udivide" type="logic">
+      <obj_property name="ElementShortName">start_udivide</obj_property>
+      <obj_property name="ObjectShortName">start_udivide</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/D" type="array">
+      <obj_property name="ElementShortName">D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/R" type="array">
+      <obj_property name="ElementShortName">R[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/ok" type="logic">
+      <obj_property name="ElementShortName">ok</obj_property>
+      <obj_property name="ObjectShortName">ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/err" type="logic">
+      <obj_property name="ElementShortName">err</obj_property>
+      <obj_property name="ObjectShortName">err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/active" type="logic">
+      <obj_property name="ElementShortName">active</obj_property>
+      <obj_property name="ObjectShortName">active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/denom" type="array">
+      <obj_property name="ElementShortName">denom[31:0]</obj_property>
+      <obj_property name="ObjectShortName">denom[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/work" type="array">
+      <obj_property name="ElementShortName">work[31:0]</obj_property>
+      <obj_property name="ObjectShortName">work[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/sub" type="array">
+      <obj_property name="ElementShortName">sub[32:0]</obj_property>
+      <obj_property name="ObjectShortName">sub[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/D" type="array">
+      <obj_property name="ElementShortName">D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/R" type="array">
+      <obj_property name="ElementShortName">R[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/ok" type="logic">
+      <obj_property name="ElementShortName">ok</obj_property>
+      <obj_property name="ObjectShortName">ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/err" type="logic">
+      <obj_property name="ElementShortName">err</obj_property>
+      <obj_property name="ObjectShortName">err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/active" type="logic">
+      <obj_property name="ElementShortName">active</obj_property>
+      <obj_property name="ObjectShortName">active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/Dsign" type="logic">
+      <obj_property name="ElementShortName">Dsign</obj_property>
+      <obj_property name="ObjectShortName">Dsign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/signA" type="logic">
+      <obj_property name="ElementShortName">signA</obj_property>
+      <obj_property name="ObjectShortName">signA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/signB" type="logic">
+      <obj_property name="ElementShortName">signB</obj_property>
+      <obj_property name="ObjectShortName">signB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/denom" type="array">
+      <obj_property name="ElementShortName">denom[31:0]</obj_property>
+      <obj_property name="ObjectShortName">denom[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/work" type="array">
+      <obj_property name="ElementShortName">work[31:0]</obj_property>
+      <obj_property name="ObjectShortName">work[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/sub" type="array">
+      <obj_property name="ElementShortName">sub[32:0]</obj_property>
+      <obj_property name="ObjectShortName">sub[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/i_mulh" type="logic">
+      <obj_property name="ElementShortName">i_mulh</obj_property>
+      <obj_property name="ObjectShortName">i_mulh</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/i_mulhsu" type="logic">
+      <obj_property name="ElementShortName">i_mulhsu</obj_property>
+      <obj_property name="ObjectShortName">i_mulhsu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/i_mulhu" type="logic">
+      <obj_property name="ElementShortName">i_mulhu</obj_property>
+      <obj_property name="ObjectShortName">i_mulhu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/i_div" type="logic">
+      <obj_property name="ElementShortName">i_div</obj_property>
+      <obj_property name="ObjectShortName">i_div</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/i_rem" type="logic">
+      <obj_property name="ElementShortName">i_rem</obj_property>
+      <obj_property name="ObjectShortName">i_rem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/i_remu" type="logic">
+      <obj_property name="ElementShortName">i_remu</obj_property>
+      <obj_property name="ObjectShortName">i_remu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/andfun/in1" type="logic">
+      <obj_property name="ElementShortName">in1</obj_property>
+      <obj_property name="ObjectShortName">in1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/andfun/in2" type="logic">
+      <obj_property name="ElementShortName">in2</obj_property>
+      <obj_property name="ObjectShortName">in2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/andfun/out" type="logic">
+      <obj_property name="ElementShortName">out</obj_property>
+      <obj_property name="ObjectShortName">out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/rv32m_fuse/rv32m" type="logic">
+      <obj_property name="ElementShortName">rv32m</obj_property>
+      <obj_property name="ObjectShortName">rv32m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/rv32m_fuse/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/rv32m_fuse/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/rv32m_fuse/func3" type="array">
+      <obj_property name="ElementShortName">func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/rv32m_fuse/fuse" type="logic">
+      <obj_property name="ElementShortName">fuse</obj_property>
+      <obj_property name="ObjectShortName">fuse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/wpc" type="logic">
+      <obj_property name="ElementShortName">wpc</obj_property>
+      <obj_property name="ObjectShortName">wpc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/pcreg/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/pcreg/e" type="logic">
+      <obj_property name="ElementShortName">e</obj_property>
+      <obj_property name="ObjectShortName">e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/pcreg/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/pcreg/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/pcreg/q" type="array">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/c_mulh" type="array">
+      <obj_property name="ElementShortName">c_mulh[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulh[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/c_mulhsu" type="array">
+      <obj_property name="ElementShortName">c_mulhsu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulhsu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/c_mulu" type="array">
+      <obj_property name="ElementShortName">c_mulu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/c_div" type="array">
+      <obj_property name="ElementShortName">c_div[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_div[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/c_divu" type="array">
+      <obj_property name="ElementShortName">c_divu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_divu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/c_mul" type="array">
+      <obj_property name="ElementShortName">c_mul[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mul[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/c_rem" type="array">
+      <obj_property name="ElementShortName">c_rem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/c_remu" type="array">
+      <obj_property name="ElementShortName">c_remu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_remu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulmux" type="array">
+      <obj_property name="ElementShortName">c_mulmux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulmux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_remmux" type="array">
+      <obj_property name="ElementShortName">c_remmux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_remmux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_remumux" type="array">
+      <obj_property name="ElementShortName">c_remumux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_remumux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_rs1" type="array">
+      <obj_property name="ElementShortName">s_rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_rs2" type="array">
+      <obj_property name="ElementShortName">s_rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_func3" type="array">
+      <obj_property name="ElementShortName">s_func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mul" type="array">
+      <obj_property name="ElementShortName">c_mul[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mul[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulh" type="array">
+      <obj_property name="ElementShortName">c_mulh[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulh[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulhsu" type="array">
+      <obj_property name="ElementShortName">c_mulhsu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulhsu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulu" type="array">
+      <obj_property name="ElementShortName">c_mulu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_div" type="array">
+      <obj_property name="ElementShortName">c_div[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_div[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_divu" type="array">
+      <obj_property name="ElementShortName">c_divu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_divu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_rem" type="array">
+      <obj_property name="ElementShortName">c_rem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_remu" type="array">
+      <obj_property name="ElementShortName">c_remu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_remu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fc_mul" type="array">
+      <obj_property name="ElementShortName">fc_mul[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_mul[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fc_rem" type="array">
+      <obj_property name="ElementShortName">fc_rem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_rem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fc_remu" type="array">
+      <obj_property name="ElementShortName">fc_remu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_remu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_rv32m" type="logic">
+      <obj_property name="ElementShortName">s_rv32m</obj_property>
+      <obj_property name="ObjectShortName">s_rv32m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/func3" type="array">
+      <obj_property name="ElementShortName">func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fuse" type="logic">
+      <obj_property name="ElementShortName">fuse</obj_property>
+      <obj_property name="ObjectShortName">fuse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/product1" type="array">
+      <obj_property name="ElementShortName">product1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">product1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/product2" type="array">
+      <obj_property name="ElementShortName">product2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">product2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/product3" type="array">
+      <obj_property name="ElementShortName">product3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">product3[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/ready_signed" type="logic">
+      <obj_property name="ElementShortName">ready_signed</obj_property>
+      <obj_property name="ObjectShortName">ready_signed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/ready_unsigned" type="logic">
+      <obj_property name="ElementShortName">ready_unsigned</obj_property>
+      <obj_property name="ObjectShortName">ready_unsigned</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/rna" type="array">
+      <obj_property name="ElementShortName">rna[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rna[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/rnb" type="array">
+      <obj_property name="ElementShortName">rnb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rnb[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/wn" type="array">
+      <obj_property name="ElementShortName">wn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/qa" type="array">
+      <obj_property name="ElementShortName">qa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/qb" type="array">
+      <obj_property name="ElementShortName">qb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/memclk" type="logic">
+      <obj_property name="ElementShortName">memclk</obj_property>
+      <obj_property name="ObjectShortName">memclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/product1" type="array">
+      <obj_property name="ElementShortName">product1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">product1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/product2" type="array">
+      <obj_property name="ElementShortName">product2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">product2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/product3" type="array">
+      <obj_property name="ElementShortName">product3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">product3[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c" type="array">
+      <obj_property name="ElementShortName">c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/aluwrv32m" type="array">
+      <obj_property name="ElementShortName">aluwrv32m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluwrv32m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32m" type="logic">
+      <obj_property name="ElementShortName">rv32m</obj_property>
+      <obj_property name="ObjectShortName">rv32m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/c_rv32m" type="array">
+      <obj_property name="ElementShortName">c_rv32m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rv32m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/alu" type="array">
+      <obj_property name="ElementShortName">alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/rna" type="array">
+      <obj_property name="ElementShortName">rna[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rna[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/rnb" type="array">
+      <obj_property name="ElementShortName">rnb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rnb[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/wn" type="array">
+      <obj_property name="ElementShortName">wn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/qa" type="array">
+      <obj_property name="ElementShortName">qa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rf/qb" type="array">
+      <obj_property name="ElementShortName">qb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/start_sdivide" type="logic">
+      <obj_property name="ElementShortName">start_sdivide</obj_property>
+      <obj_property name="ObjectShortName">start_sdivide</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/start_udivide" type="logic">
+      <obj_property name="ElementShortName">start_udivide</obj_property>
+      <obj_property name="ObjectShortName">start_udivide</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/error_unsigned" type="logic">
+      <obj_property name="ElementShortName">error_unsigned</obj_property>
+      <obj_property name="ObjectShortName">error_unsigned</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/error_signed" type="logic">
+      <obj_property name="ElementShortName">error_signed</obj_property>
+      <obj_property name="ObjectShortName">error_signed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/ready_signed" type="logic">
+      <obj_property name="ElementShortName">ready_signed</obj_property>
+      <obj_property name="ObjectShortName">ready_signed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/ready_unsigned" type="logic">
+      <obj_property name="ElementShortName">ready_unsigned</obj_property>
+      <obj_property name="ObjectShortName">ready_unsigned</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/D" type="array">
+      <obj_property name="ElementShortName">D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/R" type="array">
+      <obj_property name="ElementShortName">R[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/ok" type="logic">
+      <obj_property name="ElementShortName">ok</obj_property>
+      <obj_property name="ObjectShortName">ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/err" type="logic">
+      <obj_property name="ElementShortName">err</obj_property>
+      <obj_property name="ObjectShortName">err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/active" type="logic">
+      <obj_property name="ElementShortName">active</obj_property>
+      <obj_property name="ObjectShortName">active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/denom" type="array">
+      <obj_property name="ElementShortName">denom[31:0]</obj_property>
+      <obj_property name="ObjectShortName">denom[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/work" type="array">
+      <obj_property name="ElementShortName">work[31:0]</obj_property>
+      <obj_property name="ObjectShortName">work[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/UDivide/sub" type="array">
+      <obj_property name="ElementShortName">sub[32:0]</obj_property>
+      <obj_property name="ObjectShortName">sub[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/D" type="array">
+      <obj_property name="ElementShortName">D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/R" type="array">
+      <obj_property name="ElementShortName">R[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/ok" type="logic">
+      <obj_property name="ElementShortName">ok</obj_property>
+      <obj_property name="ObjectShortName">ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/err" type="logic">
+      <obj_property name="ElementShortName">err</obj_property>
+      <obj_property name="ObjectShortName">err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/active" type="logic">
+      <obj_property name="ElementShortName">active</obj_property>
+      <obj_property name="ObjectShortName">active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/Dsign" type="logic">
+      <obj_property name="ElementShortName">Dsign</obj_property>
+      <obj_property name="ObjectShortName">Dsign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/signA" type="logic">
+      <obj_property name="ElementShortName">signA</obj_property>
+      <obj_property name="ObjectShortName">signA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/signB" type="logic">
+      <obj_property name="ElementShortName">signB</obj_property>
+      <obj_property name="ObjectShortName">signB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/denom" type="array">
+      <obj_property name="ElementShortName">denom[31:0]</obj_property>
+      <obj_property name="ObjectShortName">denom[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/work" type="array">
+      <obj_property name="ElementShortName">work[31:0]</obj_property>
+      <obj_property name="ObjectShortName">work[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/SDivide/sub" type="array">
+      <obj_property name="ElementShortName">sub[32:0]</obj_property>
+      <obj_property name="ObjectShortName">sub[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/wpc" type="logic">
+      <obj_property name="ElementShortName">wpc</obj_property>
+      <obj_property name="ObjectShortName">wpc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/mdwait" type="logic">
+      <obj_property name="ElementShortName">mdwait</obj_property>
+      <obj_property name="ObjectShortName">mdwait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/rv32m" type="logic">
+      <obj_property name="ElementShortName">rv32m</obj_property>
+      <obj_property name="ObjectShortName">rv32m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/func3" type="array">
+      <obj_property name="ElementShortName">func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c" type="array">
+      <obj_property name="ElementShortName">c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/cu/wpc_reg" type="logic">
+      <obj_property name="ElementShortName">wpc_reg</obj_property>
+      <obj_property name="ObjectShortName">wpc_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fuse" type="logic">
+      <obj_property name="ElementShortName">fuse</obj_property>
+      <obj_property name="ObjectShortName">fuse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_fuse" type="logic">
+      <obj_property name="ElementShortName">mul_fuse</obj_property>
+      <obj_property name="ObjectShortName">mul_fuse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/rem_fuse" type="logic">
+      <obj_property name="ElementShortName">rem_fuse</obj_property>
+      <obj_property name="ObjectShortName">rem_fuse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulmux" type="array">
+      <obj_property name="ElementShortName">c_mulmux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulmux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_remmux" type="array">
+      <obj_property name="ElementShortName">c_remmux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_remmux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_remumux" type="array">
+      <obj_property name="ElementShortName">c_remumux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_remumux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_rs1" type="array">
+      <obj_property name="ElementShortName">s_rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_rs2" type="array">
+      <obj_property name="ElementShortName">s_rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_func3" type="array">
+      <obj_property name="ElementShortName">s_func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mul" type="array">
+      <obj_property name="ElementShortName">c_mul[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mul[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulh" type="array">
+      <obj_property name="ElementShortName">c_mulh[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulh[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulhsu" type="array">
+      <obj_property name="ElementShortName">c_mulhsu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulhsu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulu" type="array">
+      <obj_property name="ElementShortName">c_mulu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_div" type="array">
+      <obj_property name="ElementShortName">c_div[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_div[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_divu" type="array">
+      <obj_property name="ElementShortName">c_divu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_divu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_rem" type="array">
+      <obj_property name="ElementShortName">c_rem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_remu" type="array">
+      <obj_property name="ElementShortName">c_remu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_remu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fc_mul" type="array">
+      <obj_property name="ElementShortName">fc_mul[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_mul[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fc_rem" type="array">
+      <obj_property name="ElementShortName">fc_rem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_rem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fc_remu" type="array">
+      <obj_property name="ElementShortName">fc_remu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_remu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_rv32m" type="logic">
+      <obj_property name="ElementShortName">s_rv32m</obj_property>
+      <obj_property name="ObjectShortName">s_rv32m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/aluwrv32m" type="array">
+      <obj_property name="ElementShortName">aluwrv32m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluwrv32m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/alu" type="array">
+      <obj_property name="ElementShortName">alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32m" type="logic">
+      <obj_property name="ElementShortName">rv32m</obj_property>
+      <obj_property name="ObjectShortName">rv32m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/c_rv32m" type="array">
+      <obj_property name="ElementShortName">c_rv32m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rv32m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/aluwrv32m" type="array">
+      <obj_property name="ElementShortName">aluwrv32m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluwrv32m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/signed_data1" type="array">
+      <obj_property name="ElementShortName">signed_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signed_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/signed_data2" type="array">
+      <obj_property name="ElementShortName">signed_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signed_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/result" type="array">
+      <obj_property name="ElementShortName">result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedunsigned/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedunsigned/result" type="array">
+      <obj_property name="ElementShortName">result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/unsigned_data1" type="array">
+      <obj_property name="ElementShortName">unsigned_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unsigned_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/unsigned_data2" type="array">
+      <obj_property name="ElementShortName">unsigned_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unsigned_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/result" type="array">
+      <obj_property name="ElementShortName">result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/ready_signed" type="logic">
+      <obj_property name="ElementShortName">ready_signed</obj_property>
+      <obj_property name="ObjectShortName">ready_signed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/ready_unsigned" type="logic">
+      <obj_property name="ElementShortName">ready_unsigned</obj_property>
+      <obj_property name="ObjectShortName">ready_unsigned</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/rv32m" type="logic">
+      <obj_property name="ElementShortName">rv32m</obj_property>
+      <obj_property name="ObjectShortName">rv32m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/func3" type="array">
+      <obj_property name="ElementShortName">func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c" type="array">
+      <obj_property name="ElementShortName">c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fuse" type="logic">
+      <obj_property name="ElementShortName">fuse</obj_property>
+      <obj_property name="ObjectShortName">fuse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_fuse" type="logic">
+      <obj_property name="ElementShortName">mul_fuse</obj_property>
+      <obj_property name="ObjectShortName">mul_fuse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/rem_fuse" type="logic">
+      <obj_property name="ElementShortName">rem_fuse</obj_property>
+      <obj_property name="ObjectShortName">rem_fuse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulmux" type="array">
+      <obj_property name="ElementShortName">c_mulmux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulmux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_remmux" type="array">
+      <obj_property name="ElementShortName">c_remmux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_remmux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_remumux" type="array">
+      <obj_property name="ElementShortName">c_remumux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_remumux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_rs1" type="array">
+      <obj_property name="ElementShortName">s_rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_rs2" type="array">
+      <obj_property name="ElementShortName">s_rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_func3" type="array">
+      <obj_property name="ElementShortName">s_func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mul" type="array">
+      <obj_property name="ElementShortName">c_mul[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mul[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulh" type="array">
+      <obj_property name="ElementShortName">c_mulh[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulh[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulhsu" type="array">
+      <obj_property name="ElementShortName">c_mulhsu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulhsu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_mulu" type="array">
+      <obj_property name="ElementShortName">c_mulu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mulu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_div" type="array">
+      <obj_property name="ElementShortName">c_div[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_div[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_divu" type="array">
+      <obj_property name="ElementShortName">c_divu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_divu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_rem" type="array">
+      <obj_property name="ElementShortName">c_rem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/c_remu" type="array">
+      <obj_property name="ElementShortName">c_remu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_remu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fc_mul" type="array">
+      <obj_property name="ElementShortName">fc_mul[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_mul[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fc_rem" type="array">
+      <obj_property name="ElementShortName">fc_rem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_rem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/fc_remu" type="array">
+      <obj_property name="ElementShortName">fc_remu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fc_remu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/s_rv32m" type="logic">
+      <obj_property name="ElementShortName">s_rv32m</obj_property>
+      <obj_property name="ObjectShortName">s_rv32m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/unsigned_data1" type="array">
+      <obj_property name="ElementShortName">unsigned_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unsigned_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/unsigned_data2" type="array">
+      <obj_property name="ElementShortName">unsigned_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unsigned_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/result" type="array">
+      <obj_property name="ElementShortName">result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplyunsignedunsigned/multiply_active" type="logic">
+      <obj_property name="ElementShortName">multiply_active</obj_property>
+      <obj_property name="ObjectShortName">multiply_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/signed_data1" type="array">
+      <obj_property name="ElementShortName">signed_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signed_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/signed_data2" type="array">
+      <obj_property name="ElementShortName">signed_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signed_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/result" type="array">
+      <obj_property name="ElementShortName">result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedsigned/multiply_active" type="logic">
+      <obj_property name="ElementShortName">multiply_active</obj_property>
+      <obj_property name="ObjectShortName">multiply_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedunsigned/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedunsigned/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedunsigned/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedunsigned/signed_data1" type="array">
+      <obj_property name="ElementShortName">signed_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signed_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedunsigned/unsigned_data2" type="array">
+      <obj_property name="ElementShortName">unsigned_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unsigned_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedunsigned/result" type="array">
+      <obj_property name="ElementShortName">result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedunsigned/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sc_computer_tb/sc_computer/cpu/rv32MD/mul_div/multiplysignedunsigned/multiply_active" type="logic">
+      <obj_property name="ElementShortName">multiply_active</obj_property>
+      <obj_property name="ObjectShortName">multiply_active</obj_property>
+   </wvobject>
+</wave_config>

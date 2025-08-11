@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="258"></ZoomStartTime>
+      <ZoomEndTime time="879"></ZoomEndTime>
+      <Cursor1Time time="586"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="324"></NameColumnWidth>
+      <ValueColumnWidth column_width="153"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="counter" type="array">
+      <obj_property name="ElementShortName">counter[26:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[26:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_dmem_addr" type="array">
+      <obj_property name="ElementShortName">dbg_dmem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_dmem_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_dmem_ce" type="logic">
+      <obj_property name="ElementShortName">dbg_dmem_ce</obj_property>
+      <obj_property name="ObjectShortName">dbg_dmem_ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_dmem_din" type="array">
+      <obj_property name="ElementShortName">dbg_dmem_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_dmem_din[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_dmem_we" type="logic">
+      <obj_property name="ElementShortName">dbg_dmem_we</obj_property>
+      <obj_property name="ObjectShortName">dbg_dmem_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_halt_cpu" type="logic">
+      <obj_property name="ElementShortName">dbg_halt_cpu</obj_property>
+      <obj_property name="ObjectShortName">dbg_halt_cpu</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_imem_addr" type="array">
+      <obj_property name="ElementShortName">dbg_imem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_imem_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_imem_ce" type="logic">
+      <obj_property name="ElementShortName">dbg_imem_ce</obj_property>
+      <obj_property name="ObjectShortName">dbg_imem_ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_imem_din" type="array">
+      <obj_property name="ElementShortName">dbg_imem_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_imem_din[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="dbg_imem_we" type="logic">
+      <obj_property name="ElementShortName">dbg_imem_we</obj_property>
+      <obj_property name="ObjectShortName">dbg_imem_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="i_ecall" type="logic">
+      <obj_property name="ElementShortName">i_ecall</obj_property>
+      <obj_property name="ObjectShortName">i_ecall</obj_property>
+   </wvobject>
+   <wvobject fp_name="inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="intr_synced" type="logic">
+      <obj_property name="ElementShortName">intr_synced</obj_property>
+      <obj_property name="ObjectShortName">intr_synced</obj_property>
+   </wvobject>
+   <wvobject fp_name="IO_7SEG_N" type="array">
+      <obj_property name="ElementShortName">IO_7SEG_N[6:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_7SEG_N[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="IO_7SEGEN_N" type="array">
+      <obj_property name="ElementShortName">IO_7SEGEN_N[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_7SEGEN_N[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="IO_LED" type="array">
+      <obj_property name="ElementShortName">IO_LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_LED[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="IO_Switch" type="array">
+      <obj_property name="ElementShortName">IO_Switch[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_Switch[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="lock" type="logic">
+      <obj_property name="ElementShortName">lock</obj_property>
+      <obj_property name="ObjectShortName">lock</obj_property>
+   </wvobject>
+   <wvobject fp_name="overflow" type="logic">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="SI_ClkIn" type="logic">
+      <obj_property name="ElementShortName">SI_ClkIn</obj_property>
+      <obj_property name="ObjectShortName">SI_ClkIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="SI_Reset_N" type="logic">
+      <obj_property name="ElementShortName">SI_Reset_N</obj_property>
+      <obj_property name="ObjectShortName">SI_Reset_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="unimplemented_inst" type="logic">
+      <obj_property name="ElementShortName">unimplemented_inst</obj_property>
+      <obj_property name="ObjectShortName">unimplemented_inst</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1754113995">
+  <File Type="REPORTS-TCL" Name="mfp_nexys4_ddr_reports.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="mfp_nexys4_ddr_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="mfp_nexys4_ddr.mmi"/>
+  <File Type="OPT-DRC" Name="mfp_nexys4_ddr_drc_opted.rpt"/>
+  <File Type="BG-DRC" Name="mfp_nexys4_ddr.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="mfp_nexys4_ddr_route_status.pb"/>
+  <File Type="BG-BGN" Name="mfp_nexys4_ddr.bgn"/>
+  <File Type="PLACE-UTIL" Name="mfp_nexys4_ddr_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="mfp_nexys4_ddr_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="mfp_nexys4_ddr_io_placed.rpt"/>
+  <File Type="BG-BIN" Name="mfp_nexys4_ddr.bin"/>
+  <File Type="PLACE-CTRL" Name="mfp_nexys4_ddr_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="mfp_nexys4_ddr_power_routed.rpx"/>
+  <File Type="ROUTE-DCP" Name="mfp_nexys4_ddr_routed.dcp"/>
+  <File Type="BITSTR-MSK" Name="mfp_nexys4_ddr.msk"/>
+  <File Type="BITSTR-RBT" Name="mfp_nexys4_ddr.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mfp_nexys4_ddr_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mfp_nexys4_ddr_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="mfp_nexys4_ddr_route_status.rpt"/>
+  <File Type="PA-TCL" Name="mfp_nexys4_ddr.tcl"/>
+  <File Type="ROUTE-PWR" Name="mfp_nexys4_ddr_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="mfp_nexys4_ddr_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="mfp_nexys4_ddr_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="mfp_nexys4_ddr_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="mfp_nexys4_ddr.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="mfp_nexys4_ddr_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mfp_nexys4_ddr_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="mfp_nexys4_ddr.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mfp_nexys4_ddr_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="mfp_nexys4_ddr_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="mfp_nexys4_ddr.vdi"/>
+  <File Type="ROUTE-CLK" Name="mfp_nexys4_ddr_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="mfp_nexys4_ddr_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="mfp_nexys4_ddr_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="mfp_nexys4_ddr_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mfp_nexys4_ddr_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mfp_nexys4_ddr_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mfp_nexys4_ddr_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="mfp_nexys4_ddr_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="mfp_nexys4_ddr_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="mfp_nexys4_ddr.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mfp_nexys4_ddr_bus_skew_postroute_physopted.pb"/>
+  <File Type="BITSTR-NKY" Name="mfp_nexys4_ddr.nky"/>
+  <File Type="BITSTR-BMM" Name="mfp_nexys4_ddr_bd.bmm"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="mfp_nexys4_ddr.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mfp_nexys4_ddr_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="mfp_nexys4_ddr_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="mfp_nexys4_ddr_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="mfp_nexys4_ddr_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="mfp_nexys4_ddr_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="mfp_nexys4_ddr_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="mfp_nexys4_ddr_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mfp_nexys4_ddr_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="mfp_nexys4_ddr_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mfp_nexys4_ddr_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mfp_nexys4_ddr_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="mfp_nexys4_ddr.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="mfp_nexys4_ddr_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="mfp_nexys4_ddr_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="mfp_nexys4_ddr.rcfi"/>
+  <File Type="CFI_FILE" Name="mfp_nexys4_ddr.cfi"/>
+  <File Type="RNPI_FILE" Name="mfp_nexys4_ddr.rnpi"/>
+  <File Type="NPI_FILE" Name="mfp_nexys4_ddr.npi"/>
+  <File Type="RBD_FILE" Name="mfp_nexys4_ddr.rbd"/>
+  <File Type="ROUTE-RQS" Name="mfp_nexys4_ddr_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="mfp_nexys4_ddr_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/ila_0/ila_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCVsinglecycle/RISCVsinglecycle.srcs/sources_1/ip/ila_0/ila_0.xci"/>
+        <Attr Name="ImportTime" Val="1751243762"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/SPI_Master.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Common/io/SPI_Master.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../3rd Party IP/uart-debug/UART_RX.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../3rd Party IP/uart-debug/UART_TX.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/alu_ov.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/branch_addr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/branch_addr.v"/>
+        <Attr Name="ImportTime" Val="1618624022"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/button_debounce.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Common/io/buzzer.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/ascii.vh">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../3rd Party IP/uart-debug/ascii.vh"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../3rd Party IP/uart-debug/cmdproc.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/Common/mfp_ahb_const.vh">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Common/mfp_ahb_const.vh"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/cpugpio.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Common/io/cpugpio.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/csr_unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/uart-debug/debug_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../3rd Party IP/uart-debug/debug_control.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sccompintFPGA/dff32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../ComputerArchitecture/en-525-612-mips-cpu/RTL/CPUs/Single-Cycle-with-Interrupts/sccompintFPGA.srcs/sources_1/imports/sccompintFPGA/dff32.v"/>
+        <Attr Name="ImportTime" Val="1740077545"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/imme.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/imme.v"/>
+        <Attr Name="ImportTime" Val="1618623992"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/jal_addr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/jal_addr.v"/>
+        <Attr Name="ImportTime" Val="1618624066"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/jalr_addr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/jalr_addr.v"/>
+        <Attr Name="ImportTime" Val="1618624090"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/milliscounter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Common/io/milliscounter.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/mux2x32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/mux2x32.v"/>
+        <Attr Name="ImportTime" Val="1618097390"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/mux4x32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/mux4x32.v"/>
+        <Attr Name="ImportTime" Val="1618624136"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/pc4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/pc4.v"/>
+        <Attr Name="ImportTime" Val="1679447022"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/pmod_als_spi_receiver.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Common/io/pmod_als_spi_receiver.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/regfile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/regfile.v"/>
+        <Attr Name="ImportTime" Val="1618630418"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/sc_cu_intr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/sc_interrupt_sys.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/sccomp_decoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/sccomp_decoder.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/Common/sevensegdec.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Common/sevensegdec.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Common/io/sevensegtimer.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/mips-cpu/RTL/Common/uram.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Common/uram.v"/>
+        <Attr Name="ImportTime" Val="1642875551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/mfp_nexys4_ddr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/mfp_nexys4_ddr.v"/>
+        <Attr Name="ImportTime" Val="1679592719"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/interrupt_ack_gen.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/button_debounce_pulse.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sccompintFPGA/dffe32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../ComputerArchitecture/en-525-612-mips-cpu/RTL/CPUs/Single-Cycle-with-Interrupts/sccompintFPGA.srcs/sources_1/imports/sccompintFPGA/dffe32.v"/>
+        <Attr Name="ImportTime" Val="1740077545"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/dff32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/dff32.v"/>
+        <Attr Name="ImportTime" Val="1618623166"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/alu.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/alu.v"/>
+        <Attr Name="ImportTime" Val="1618457454"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/sc_cu.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/sc_cu.v"/>
+        <Attr Name="ImportTime" Val="1679423798"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/sccpu.v"/>
+        <Attr Name="ImportTime" Val="1679503954"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/sc_computer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/sc_computer.v"/>
+        <Attr Name="ImportTime" Val="1679592787"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/fpgauser/cod_riscv_cpu/sc_computer_tb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/sc_computer_tb.v"/>
+        <Attr Name="ImportTime" Val="1679594058"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mfp_nexys4_ddr"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/cod_riscv_cpu/mfp_nexys4_ddr.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../cod_riscv_cpu/mfp_nexys4_ddr.xdc"/>
+        <Attr Name="ImportTime" Val="1676737116"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PPRDIR/../../Common/oledrgbpins.tcl">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="UsedInSteps" Val="impl_1;WRITE_BITSTREAM;TCL.PRE"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream" PreStepTclHook="$PPRDIR/../../Common/oledrgbpins.tcl"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

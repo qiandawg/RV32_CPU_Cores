@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\JHU_Classes\ILA_RISCVpipelinedRV32IMF\ILA_RISCVpipelinedRV32IMF.runs\ila_0_synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied

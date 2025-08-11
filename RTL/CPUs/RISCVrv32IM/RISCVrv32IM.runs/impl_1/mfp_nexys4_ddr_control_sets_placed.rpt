@@ -1,0 +1,133 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Thu Jun 19 23:23:54 2025
+| Host         : QianPC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file mfp_nexys4_ddr_control_sets_placed.rpt
+| Design       : mfp_nexys4_ddr
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    55 |
+|    Minimum number of control sets                        |    55 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    71 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    55 |
+| >= 0 to < 4        |     7 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    42 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              43 |           20 |
+| No           | No                    | Yes                    |              70 |           22 |
+| No           | Yes                   | No                     |               4 |            1 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |            1218 |          483 |
+| Yes          | Yes                   | No                     |              34 |           12 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------------+-------------------------------------------------------------+--------------------------+------------------+----------------+--------------+
+|                  Clock Signal                 |                        Enable Signal                        |     Set/Reset Signal     | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------------------------+-------------------------------------------------------------+--------------------------+------------------+----------------+--------------+
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/rgb_spi/o_SPI_MOSI_i_1_n_0                 | sc_computer/cpu/rf/SR[0] |                1 |              1 |         1.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/IO_RGB_SPI_CS9_out                         | sc_computer/cpu/rf/SR[0] |                1 |              1 |         1.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/IO_RGB_DC7_out                             | sc_computer/cpu/rf/SR[0] |                1 |              1 |         1.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/IO_RGB_PEN1_out                            | sc_computer/cpu/rf/SR[0] |                1 |              1 |         1.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/IO_RGB_RST5_out                            | sc_computer/cpu/rf/SR[0] |                1 |              1 |         1.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/IO_RGB_VCC_EN3_out                         | sc_computer/cpu/rf/SR[0] |                1 |              1 |         1.00 |
+|  sc_computer/gpio/sevensegtimer/counter16/CLK |                                                             | sc_computer/cpu/rf/SR[0] |                1 |              3 |         3.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/rgb_spi/r_SPI_Clk_Edges[4]_i_1_n_0         | sc_computer/cpu/rf/SR[0] |                1 |              5 |         5.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/cpu/cu/counter[5]_i_1_n_0                       | sc_computer/cpu/rf/SR[0] |                2 |              6 |         3.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/SPIsend                                    | sc_computer/cpu/rf/SR[0] |                2 |              8 |         4.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/SEGEN_N_0                                  | sc_computer/cpu/rf/SR[0] |                3 |              8 |         2.67 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/SPIsend11_out                              | sc_computer/cpu/rf/SR[0] |                1 |              8 |         8.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/cpu/rv32MD/mul_div/andfun/E[0]                  | sc_computer/cpu/rf/SR[0] |                2 |             10 |         5.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/pmod_als_spi_receiver/sample_bit           | sc_computer/cpu/rf/SR[0] |                4 |             16 |         4.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/pmod_als_spi_receiver/value[15]_i_1_n_0    | sc_computer/cpu/rf/SR[0] |                7 |             16 |         2.29 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/IO_LED[15]_i_1_n_0                         | sc_computer/cpu/rf/SR[0] |                6 |             16 |         2.67 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/cpu/cu/E[0]                                     | sc_computer/cpu/rf/SR[0] |               19 |             31 |         1.63 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_7[0]                              | sc_computer/cpu/rf/SR[0] |               16 |             32 |         2.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_19[0]                             | sc_computer/cpu/rf/SR[0] |               16 |             32 |         2.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_31[0]                             | sc_computer/cpu/rf/SR[0] |               13 |             32 |         2.46 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_26[0]                             | sc_computer/cpu/rf/SR[0] |               13 |             32 |         2.46 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_5[0]                              | sc_computer/cpu/rf/SR[0] |                9 |             32 |         3.56 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_30[0]                             | sc_computer/cpu/rf/SR[0] |               13 |             32 |         2.46 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_24[0]                             | sc_computer/cpu/rf/SR[0] |               12 |             32 |         2.67 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_21[0]                             | sc_computer/cpu/rf/SR[0] |               13 |             32 |         2.46 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_18[0]                             | sc_computer/cpu/rf/SR[0] |               10 |             32 |         3.20 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_22[0]                             | sc_computer/cpu/rf/SR[0] |               13 |             32 |         2.46 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_12[0]                             | sc_computer/cpu/rf/SR[0] |               15 |             32 |         2.13 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_11[0]                             | sc_computer/cpu/rf/SR[0] |               12 |             32 |         2.67 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_23[0]                             | sc_computer/cpu/rf/SR[0] |               14 |             32 |         2.29 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_13[0]                             | sc_computer/cpu/rf/SR[0] |               20 |             32 |         1.60 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_25[0]                             | sc_computer/cpu/rf/SR[0] |                8 |             32 |         4.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_3[0]                              | sc_computer/cpu/rf/SR[0] |               13 |             32 |         2.46 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_29[0]                             | sc_computer/cpu/rf/SR[0] |               12 |             32 |         2.67 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/milliscounter/millis                       | sc_computer/cpu/rf/SR[0] |                8 |             32 |         4.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_15[0]                             | sc_computer/cpu/rf/SR[0] |               10 |             32 |         3.20 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/E[0]                                       | sc_computer/cpu/rf/SR[0] |               16 |             32 |         2.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_10[0]                             | sc_computer/cpu/rf/SR[0] |               18 |             32 |         1.78 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_32[0]                             | sc_computer/cpu/rf/SR[0] |               16 |             32 |         2.00 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_8[0]                              | sc_computer/cpu/rf/SR[0] |               10 |             32 |         3.20 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_27[0]                             | sc_computer/cpu/rf/SR[0] |               15 |             32 |         2.13 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/gpio/SEGDIGITS_N                                | sc_computer/cpu/rf/SR[0] |                9 |             32 |         3.56 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_20[0]                             | sc_computer/cpu/rf/SR[0] |               11 |             32 |         2.91 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_4[0]                              | sc_computer/cpu/rf/SR[0] |               10 |             32 |         3.20 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_9[0]                              | sc_computer/cpu/rf/SR[0] |               14 |             32 |         2.29 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_6[0]                              | sc_computer/cpu/rf/SR[0] |               11 |             32 |         2.91 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_17[0]                             | sc_computer/cpu/rf/SR[0] |               10 |             32 |         3.20 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_16[0]                             | sc_computer/cpu/rf/SR[0] |               14 |             32 |         2.29 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_28[0]                             | sc_computer/cpu/rf/SR[0] |               15 |             32 |         2.13 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/q_reg[9]_14[0]                             | sc_computer/cpu/rf/SR[0] |                9 |             32 |         3.56 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/cpu/rv32MD/mul_div/andfun/out_reg_0[0]          | sc_computer/cpu/rf/SR[0] |               12 |             32 |         2.67 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/cpu/rv32MD/mul_div/Start_Div_mul/start_multiply | sc_computer/cpu/rf/SR[0] |               12 |             34 |         2.83 |
+|  clk_wiz_0/inst/clk_out1                      |                                                             | sc_computer/cpu/rf/SR[0] |               22 |             71 |         3.23 |
+|  clk_wiz_0/inst/clk_out1                      | sc_computer/imem/p_1_in                                     |                          |               32 |            128 |         4.00 |
+|  clk_wiz_0/inst/clk_out1                      |                                                             |                          |               47 |            151 |         3.21 |
++-----------------------------------------------+-------------------------------------------------------------+--------------------------+------------------+----------------+--------------+
+
+

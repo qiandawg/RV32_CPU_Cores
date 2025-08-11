@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipelinedcpu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pipelinedcpu_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9,797.333 ns"></ZoomStartTime>
+      <ZoomEndTime time="10,040.534 ns"></ZoomEndTime>
+      <Cursor1Time time="10,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="180"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="70" />
+   <wvobject fp_name="/pipelinedcpu_tb/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[64:1]</obj_property>
+      <obj_property name="ObjectShortName">opcode[64:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[64:1]</obj_property>
+      <obj_property name="ObjectShortName">opcode[64:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/dataout" type="array">
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/dataout_ready" type="logic">
+      <obj_property name="ElementShortName">dataout_ready</obj_property>
+      <obj_property name="ObjectShortName">dataout_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/datain" type="array">
+      <obj_property name="ElementShortName">datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/haddr" type="array">
+      <obj_property name="ElementShortName">haddr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">haddr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/HSEL" type="logic">
+      <obj_property name="ElementShortName">HSEL</obj_property>
+      <obj_property name="ObjectShortName">HSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/IO_Switch" type="array">
+      <obj_property name="ElementShortName">IO_Switch[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_Switch[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/IO_PB" type="array">
+      <obj_property name="ElementShortName">IO_PB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_PB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/IO_LED" type="array">
+      <obj_property name="ElementShortName">IO_LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/IO_7SEGEN_N" type="array">
+      <obj_property name="ElementShortName">IO_7SEGEN_N[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_7SEGEN_N[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/IO_7SEG_N" type="array">
+      <obj_property name="ElementShortName">IO_7SEG_N[6:0]</obj_property>
+      <obj_property name="ObjectShortName">IO_7SEG_N[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/IO_BUZZ" type="logic">
+      <obj_property name="ElementShortName">IO_BUZZ</obj_property>
+      <obj_property name="ObjectShortName">IO_BUZZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/IO_RGB_SPI_MOSI" type="logic">
+      <obj_property name="ElementShortName">IO_RGB_SPI_MOSI</obj_property>
+      <obj_property name="ObjectShortName">IO_RGB_SPI_MOSI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/IO_RGB_SPI_SCK" type="logic">
+      <obj_property name="ElementShortName">IO_RGB_SPI_SCK</obj_property>
+      <obj_property name="ObjectShortName">IO_RGB_SPI_SCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/fwdf" type="logic">
+      <obj_property name="ElementShortName">fwdf</obj_property>
+      <obj_property name="ObjectShortName">fwdf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/e3d" type="array">
+      <obj_property name="ElementShortName">e3d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e3d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/IO_RGB_SPI_CS" type="logic">
+      <obj_property name="ElementShortName">IO_RGB_SPI_CS</obj_property>
+      <obj_property name="ObjectShortName">IO_RGB_SPI_CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/cu/swfp" type="logic">
+      <obj_property name="ElementShortName">swfp</obj_property>
+      <obj_property name="ObjectShortName">swfp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/cu/e3n" type="array">
+      <obj_property name="ElementShortName">e3n[4:0]</obj_property>
+      <obj_property name="ObjectShortName">e3n[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/cu/fwdfb" type="logic">
+      <obj_property name="ElementShortName">fwdfb</obj_property>
+      <obj_property name="ObjectShortName">fwdfb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/cu/ft" type="array">
+      <obj_property name="ElementShortName">ft[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ft[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/cu/e3w" type="logic">
+      <obj_property name="ElementShortName">e3w</obj_property>
+      <obj_property name="ObjectShortName">e3w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/mwmem" type="logic">
+      <obj_property name="ElementShortName">mwmem</obj_property>
+      <obj_property name="ObjectShortName">mwmem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/efwdfe" type="logic">
+      <obj_property name="ElementShortName">efwdfe</obj_property>
+      <obj_property name="ObjectShortName">efwdfe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/fwdfe" type="logic">
+      <obj_property name="ElementShortName">fwdfe</obj_property>
+      <obj_property name="ObjectShortName">fwdfe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/ed" type="array">
+      <obj_property name="ElementShortName">ed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/e3d" type="array">
+      <obj_property name="ElementShortName">e3d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e3d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/dc" type="array">
+      <obj_property name="ElementShortName">dc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/e3d" type="array">
+      <obj_property name="ElementShortName">e3d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e3d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/dfb" type="array">
+      <obj_property name="ElementShortName">dfb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dfb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/db" type="array">
+      <obj_property name="ElementShortName">db[31:0]</obj_property>
+      <obj_property name="ObjectShortName">db[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[64:1]</obj_property>
+      <obj_property name="ObjectShortName">opcode[64:1]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/dd" type="array">
+      <obj_property name="ElementShortName">dd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/imm" type="array">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/dataBus" type="array">
+      <obj_property name="ElementShortName">dataBus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataBus[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/em_reg/edata" type="array">
+      <obj_property name="ElementShortName">edata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">edata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/sevensegtimer/en0" type="array">
+      <obj_property name="ElementShortName">en0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">en0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/sevensegtimer/en1" type="array">
+      <obj_property name="ElementShortName">en1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">en1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/sevensegtimer/en2" type="array">
+      <obj_property name="ElementShortName">en2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">en2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/sevensegtimer/en3" type="array">
+      <obj_property name="ElementShortName">en3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">en3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/sevensegtimer/en4" type="array">
+      <obj_property name="ElementShortName">en4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">en4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/sevensegtimer/en5" type="array">
+      <obj_property name="ElementShortName">en5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">en5[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/sevensegtimer/en6" type="array">
+      <obj_property name="ElementShortName">en6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">en6[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/sevensegtimer/en7" type="array">
+      <obj_property name="ElementShortName">en7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">en7[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/sevensegtimer/DIGITS" type="array">
+      <obj_property name="ElementShortName">DIGITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DIGITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/HSEL" type="logic">
+      <obj_property name="ElementShortName">HSEL</obj_property>
+      <obj_property name="ObjectShortName">HSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/mwmem" type="logic">
+      <obj_property name="ElementShortName">mwmem</obj_property>
+      <obj_property name="ObjectShortName">mwmem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/swfp" type="logic">
+      <obj_property name="ElementShortName">swfp</obj_property>
+      <obj_property name="ObjectShortName">swfp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/dataBus" type="array">
+      <obj_property name="ElementShortName">dataBus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataBus[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/datain_d" type="array">
+      <obj_property name="ElementShortName">datain_d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datain_d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/HADDR_d" type="array">
+      <obj_property name="ElementShortName">HADDR_d[5:0]</obj_property>
+      <obj_property name="ObjectShortName">HADDR_d[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/wes" type="logic">
+      <obj_property name="ElementShortName">wes</obj_property>
+      <obj_property name="ObjectShortName">wes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/mem_stage/gpio/haddr" type="array">
+      <obj_property name="ElementShortName">haddr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">haddr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/eal" type="array">
+      <obj_property name="ElementShortName">eal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eal[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/exe_stage/ea" type="array">
+      <obj_property name="ElementShortName">ea[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ea[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/exe_stage/eb" type="array">
+      <obj_property name="ElementShortName">eb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/exe_stage/epc4" type="array">
+      <obj_property name="ElementShortName">epc4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">epc4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/exe_stage/ealuc" type="array">
+      <obj_property name="ElementShortName">ealuc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ealuc[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/exe_stage/ecall" type="logic">
+      <obj_property name="ElementShortName">ecall</obj_property>
+      <obj_property name="ObjectShortName">ecall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/exe_stage/eal" type="array">
+      <obj_property name="ElementShortName">eal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eal[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/exe_stage/ealu" type="array">
+      <obj_property name="ElementShortName">ealu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ealu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/exe_stage/zout" type="logic">
+      <obj_property name="ElementShortName">zout</obj_property>
+      <obj_property name="ObjectShortName">zout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/da" type="array">
+      <obj_property name="ElementShortName">da[31:0]</obj_property>
+      <obj_property name="ObjectShortName">da[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu_tb/cpu/id_stage/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+</wave_config>

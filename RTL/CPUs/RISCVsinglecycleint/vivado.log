@@ -1,0 +1,871 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sat Aug  2 00:35:17 2025
+# Process ID         : 44252
+# Current directory  : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent49484 C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.xpr
+# Log file           : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/vivado.log
+# Journal file       : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint\vivado.jou
+# Running On         : QianPC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i9-12900H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16848 MB
+# Swap memory        : 31138 MB
+# Total Virtual      : 47986 MB
+# Available Virtual  : 15582 MB
+#-----------------------------------------------------------
+WARNING: [Runs 36-547] User Strategy 'Vivado Implementation Defaults' from file 'C:\Users\lamqi\AppData\Roaming/Xilinx/Vivado/2024.2/strategies/Vivado Implementation Defaults.Vivado Implementation 2020.psg' discarded because strategy with same name already parsed from 'C:/Xilinx/Vivado/2024.2/strategies/VDI2020.psg'
+start_gui
+open_project C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/riscv-cpu/RTL/CPUs/RISCVsinglecycleint' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:10 . Memory (MB): peak = 1661.531 ; gain = 424.301
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sc_computer_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.2/data/xsim/xsim.ini' copied to run dir:'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sc_computer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sc_computer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/SPI_Master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_Master
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_RX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_TX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/alu_ov.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_ov
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/branch_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buzzer
+INFO: [VRFC 10-311] analyzing module microsCounter
+INFO: [VRFC 10-311] analyzing module toggleBuzz
+INFO: [VRFC 10-311] analyzing module regR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmdproc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/cpugpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpugpio
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr_unit
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'mie' is not allowed [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:33]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'mip' is not allowed [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:37]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/uart-debug/debug_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/sccompintFPGA/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/imme.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imme
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/jal_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jal_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/jalr_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jalr_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/milliscounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module milliscounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/pc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/pmod_als_spi_receiver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pmod_als_spi_receiver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_cu_intr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cu_intr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_interrupt_sys.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_interrupt_sys
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccomp_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_intr
+WARNING: [VRFC 10-3380] identifier 'mstatus' is used before its declaration [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:77]
+WARNING: [VRFC 10-3380] identifier 'mstatus' is used before its declaration [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:78]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/sevensegdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevensegdec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevensegtimer
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module mux8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/uram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_computer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_computer_tb
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1730.391 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sc_computer_tb_behav xil_defaultlib.sc_computer_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sc_computer_tb_behav xil_defaultlib.sc_computer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'SI_CLK100MHZ' is not connected on this instance [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_computer_tb.v:284]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/alu_ov.v" Line 14. Module alu_ov doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/branch_addr.v" Line 1. Module branch_addr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 7. Module buzzer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 66. Module regR doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 30. Module microsCounter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 51. Module toggleBuzz doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/SPI_Master.v" Line 56. Module SPI_Master(SPI_MODE=3,CLKS_PER_HALF_BIT=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v" Line 22. Module cmdproc(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v" Line 14. Module UART_TX(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v" Line 15. Module UART_RX(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/alu_ov.v" Line 14. Module alu_ov doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/branch_addr.v" Line 1. Module branch_addr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 7. Module buzzer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 66. Module regR doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 30. Module microsCounter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 51. Module toggleBuzz doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/SPI_Master.v" Line 56. Module SPI_Master(SPI_MODE=3,CLKS_PER_HALF_BIT=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v" Line 22. Module cmdproc(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v" Line 14. Module UART_TX(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v" Line 15. Module UART_RX(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sc_cu_intr
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.pc4
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu_ov
+Compiling module xil_defaultlib.csr_unit
+Compiling module xil_defaultlib.jal_addr
+Compiling module xil_defaultlib.jalr_addr
+Compiling module xil_defaultlib.imme
+Compiling module xil_defaultlib.branch_addr
+Compiling module xil_defaultlib.sccpu_intr
+Compiling module xil_defaultlib.uram(A_WIDTH=8,INIT_FILE="C:/JHU...
+Compiling module xil_defaultlib.uram(A_WIDTH=8,INIT_FILE="C:/JHU...
+Compiling module xil_defaultlib.sccomp_decoder
+Compiling module xil_defaultlib.milliscounter
+Compiling module xil_defaultlib.regR
+Compiling module xil_defaultlib.microsCounter
+Compiling module xil_defaultlib.toggleBuzz
+Compiling module xil_defaultlib.buzzer
+Compiling module xil_defaultlib.SPI_Master(SPI_MODE=3,CLKS_PER_H...
+Compiling module xil_defaultlib.pmod_als_spi_receiver
+Compiling module xil_defaultlib.sevensegdec
+Compiling module xil_defaultlib.counter(WIDTH=16)
+Compiling module xil_defaultlib.counter(WIDTH=3)
+Compiling module xil_defaultlib.mux8
+Compiling module xil_defaultlib.mux8(WIDTH=4)
+Compiling module xil_defaultlib.sevensegtimer
+Compiling module xil_defaultlib.cpugpio
+Compiling module xil_defaultlib.UART_TX(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.UART_RX(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.cmdproc(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.debug_control
+Compiling module xil_defaultlib.sc_interrupt_sys
+Compiling module xil_defaultlib.sc_computer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sc_computer_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1730.391 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sc_computer_tb_behav -key {Behavioral:sim_1:Functional:sc_computer_tb} -tclbatch {sc_computer_tb.tcl} -view {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycle/sc_computer_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycle/sc_computer_tb_behav.wcfg
+source sc_computer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sc_computer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1749.812 ; gain = 19.422
+run 10000 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sc_computer_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.2/data/xsim/xsim.ini' copied to run dir:'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sc_computer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sc_computer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/SPI_Master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_Master
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_RX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_TX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/alu_ov.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_ov
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/branch_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buzzer
+INFO: [VRFC 10-311] analyzing module microsCounter
+INFO: [VRFC 10-311] analyzing module toggleBuzz
+INFO: [VRFC 10-311] analyzing module regR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmdproc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/cpugpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpugpio
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr_unit
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'mie' is not allowed [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:33]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'mip' is not allowed [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:37]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/uart-debug/debug_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/sccompintFPGA/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/imme.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imme
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/jal_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jal_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/jalr_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jalr_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/milliscounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module milliscounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/pc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/pmod_als_spi_receiver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pmod_als_spi_receiver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_cu_intr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cu_intr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_interrupt_sys.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_interrupt_sys
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccomp_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_intr
+WARNING: [VRFC 10-3380] identifier 'mstatus' is used before its declaration [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:77]
+WARNING: [VRFC 10-3380] identifier 'mstatus' is used before its declaration [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:78]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/sevensegdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevensegdec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevensegtimer
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module mux8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/uram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_computer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_computer_tb
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2378.242 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2378.242 ; gain = 0.000
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'sc_computer_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sc_computer_tb_behav xil_defaultlib.sc_computer_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sc_computer_tb_behav xil_defaultlib.sc_computer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'SI_CLK100MHZ' is not connected on this instance [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_computer_tb.v:284]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/alu_ov.v" Line 14. Module alu_ov doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/branch_addr.v" Line 1. Module branch_addr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 7. Module buzzer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 66. Module regR doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 30. Module microsCounter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 51. Module toggleBuzz doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/SPI_Master.v" Line 56. Module SPI_Master(SPI_MODE=3,CLKS_PER_HALF_BIT=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v" Line 22. Module cmdproc(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v" Line 14. Module UART_TX(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v" Line 15. Module UART_RX(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/alu_ov.v" Line 14. Module alu_ov doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/branch_addr.v" Line 1. Module branch_addr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 7. Module buzzer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 66. Module regR doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 30. Module microsCounter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" Line 51. Module toggleBuzz doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/SPI_Master.v" Line 56. Module SPI_Master(SPI_MODE=3,CLKS_PER_HALF_BIT=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v" Line 22. Module cmdproc(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v" Line 14. Module UART_TX(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v" Line 15. Module UART_RX(CLKS_PER_BIT=434) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sc_cu_intr
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.pc4
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu_ov
+Compiling module xil_defaultlib.csr_unit
+Compiling module xil_defaultlib.jal_addr
+Compiling module xil_defaultlib.jalr_addr
+Compiling module xil_defaultlib.imme
+Compiling module xil_defaultlib.branch_addr
+Compiling module xil_defaultlib.sccpu_intr
+Compiling module xil_defaultlib.uram(A_WIDTH=8,INIT_FILE="C:/JHU...
+Compiling module xil_defaultlib.uram(A_WIDTH=8,INIT_FILE="C:/JHU...
+Compiling module xil_defaultlib.sccomp_decoder
+Compiling module xil_defaultlib.milliscounter
+Compiling module xil_defaultlib.regR
+Compiling module xil_defaultlib.microsCounter
+Compiling module xil_defaultlib.toggleBuzz
+Compiling module xil_defaultlib.buzzer
+Compiling module xil_defaultlib.SPI_Master(SPI_MODE=3,CLKS_PER_H...
+Compiling module xil_defaultlib.pmod_als_spi_receiver
+Compiling module xil_defaultlib.sevensegdec
+Compiling module xil_defaultlib.counter(WIDTH=16)
+Compiling module xil_defaultlib.counter(WIDTH=3)
+Compiling module xil_defaultlib.mux8
+Compiling module xil_defaultlib.mux8(WIDTH=4)
+Compiling module xil_defaultlib.sevensegtimer
+Compiling module xil_defaultlib.cpugpio
+Compiling module xil_defaultlib.UART_TX(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.UART_RX(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.cmdproc(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.debug_control
+Compiling module xil_defaultlib.sc_interrupt_sys
+Compiling module xil_defaultlib.sc_computer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sc_computer_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2378.242 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2378.242 ; gain = 0.000
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 2378.242 ; gain = 0.000
+run 10000 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Sat Aug  2 00:41:06 2025] Launched synth_1...
+Run output will be captured here: C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1/runme.log
+[Sat Aug  2 00:41:06 2025] Launched impl_1...
+Run output will be captured here: C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/impl_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1
+
+launch_runs synth_1 -jobs 10
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dff32' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/sccompintFPGA/dff32.v:6]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dff32()' found in library 'xil_defaultlib'
+Duplicate found at line 1 of file C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/dff32.v
+	(Active) Duplicate found at line 6 of file C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/sccompintFPGA/dff32.v
+[Sat Aug  2 00:44:27 2025] Launched synth_1...
+Run output will be captured here: C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property CONFIG.C_NUM_OF_PROBES {22} [get_ips ila_0]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+generate_target all [get_files  C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 80142cbcac200fe9 to dir: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/ip/2024.2/8/0/80142cbcac200fe9/ila_0.dcp to c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0.dcp
+ERROR: [Common 17-180] Spawn failed: No error
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/ip/2024.2/8/0/80142cbcac200fe9/ila_0_sim_netlist.v to c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/ip/2024.2/8/0/80142cbcac200fe9/ila_0_sim_netlist.vhdl to c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/ip/2024.2/8/0/80142cbcac200fe9/ila_0_stub.v to c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/ip/2024.2/8/0/80142cbcac200fe9/ila_0_stub.vhdl to c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ila_0, cache-ID = 80142cbcac200fe9; cache size = 34.360 MB.
+config_ip_cache: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2378.242 ; gain = 0.000
+catch { [ delete_ip_run [get_ips -all ila_0] ] }
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/ila_0_synth_1
+
+INFO: [Project 1-386] Moving file 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci' from fileset 'ila_0' to fileset 'sources_1'.
+export_ip_user_files -of_objects [get_files C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci'
+export_simulation -lib_map_path [list {modelsim=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/modelsim} {questa=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/questa} {riviera=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/riviera} {activehdl=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/activehdl}] -of_objects [get_files C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files/sim_scripts -ip_user_files_dir C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files -ipstatic_source_dir C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property CONFIG.C_NUM_OF_PROBES {23} [get_ips ila_0]
+generate_target all [get_files  C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+export_ip_user_files -of_objects [get_files C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci]
+launch_runs ila_0_synth_1 -jobs 10
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+[Sat Aug  2 00:47:14 2025] Launched ila_0_synth_1...
+Run output will be captured here: C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/ila_0_synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+export_simulation -lib_map_path [list {modelsim=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/modelsim} {questa=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/questa} {riviera=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/riviera} {activehdl=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/activehdl}] -of_objects [get_files C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files/sim_scripts -ip_user_files_dir C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files -ipstatic_source_dir C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci]
+catch { config_ip_cache -export [get_ips -all ila_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+export_ip_user_files -of_objects [get_files C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+reset_run ila_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/ila_0_synth_1
+
+launch_runs ila_0_synth_1 -jobs 10
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+[Sat Aug  2 00:47:32 2025] Launched ila_0_synth_1...
+Run output will be captured here: C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/ila_0_synth_1/runme.log
+export_simulation -lib_map_path [list {modelsim=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/modelsim} {questa=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/questa} {riviera=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/riviera} {activehdl=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/activehdl}] -of_objects [get_files C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files/sim_scripts -ip_user_files_dir C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files -ipstatic_source_dir C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_target all [get_files  C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci]
+export_ip_user_files -of_objects  [get_files  C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset ila_0] C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/ila_0_synth_1
+
+INFO: [Project 1-386] Moving file 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci' from fileset 'ila_0' to fileset 'sources_1'.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+generate_target all [get_files  C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry ce76e231958734d2 to dir: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/ip/2024.2/c/e/ce76e231958734d2/ila_0.dcp to c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/ip/2024.2/c/e/ce76e231958734d2/ila_0_sim_netlist.v to c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/ip/2024.2/c/e/ce76e231958734d2/ila_0_sim_netlist.vhdl to c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/ip/2024.2/c/e/ce76e231958734d2/ila_0_stub.v to c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/ip/2024.2/c/e/ce76e231958734d2/ila_0_stub.vhdl to c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/ila_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ila_0, cache-ID = ce76e231958734d2; cache size = 45.126 MB.
+export_ip_user_files -of_objects [get_files C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci'
+export_simulation -lib_map_path [list {modelsim=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/modelsim} {questa=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/questa} {riviera=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/riviera} {activehdl=C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.cache/compile_simlib/activehdl}] -of_objects [get_files C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files/sim_scripts -ip_user_files_dir C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files -ipstatic_source_dir C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sccpu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_interrupt_sys.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_computer.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\mfp_nexys4_ddr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.srcs\sources_1\imports\fpgauser\cod_riscv_cpu\sc_cu_intr.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1
+
+launch_runs synth_1 -jobs 10
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci' is already up-to-date
+[Sat Aug  2 00:50:21 2025] Launched synth_1...
+Run output will be captured here: C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 10
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci' is already up-to-date
+[Sat Aug  2 00:53:15 2025] Launched impl_1...
+Run output will be captured here: C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/ip/ila_0/ila_0.xci' is already up-to-date
+[Sat Aug  2 00:58:43 2025] Launched impl_1...
+Run output will be captured here: C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.2
+  **** Build date : Oct 29 2024 at 10:25:41
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+Cannot send datagram packet to /10.5.0.255
+OSError: [WinError 10022] An invalid argument was supplied
+  File "chipscopy\tcf\services\local\LocatorService.py", line 707, in __sendDatagramPacket
+
+
+******** Xilinx cs_server v2024.2.0
+  ****** Build date   : Oct 30 2024-13:19:07
+    **** Build number : 2024.2.1730312347
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2378.242 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B62160A
+set_property PROGRAM.FILE {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/impl_1/mfp_nexys4_ddr.bit} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/impl_1/mfp_nexys4_ddr.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/impl_1/mfp_nexys4_ddr.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'my_ila' at location 'uuid_4442130457065225A64B50788578BC1D' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a100t_0 and the probes file(s) C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/impl_1/mfp_nexys4_ddr.ltx.
+The device design has 1 ILA core(s) and 0 VIO core(s). 0 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/impl_1/mfp_nexys4_ddr.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/impl_1/mfp_nexys4_ddr.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.runs/impl_1/mfp_nexys4_ddr.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"my_ila"}]]
+WARNING: Simulation object sc_interrupt_sys/inst was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/pc was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/SI_ClkIn was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/SI_Reset_N was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/lock was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/counter was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/IO_Switch was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/IO_LED was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/dbg_imem_cs was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/dbg_imem_we was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/dbg_imem_addr was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/dbg_imem_din was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/dbg_dmem_cs was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/dbg_dmem_we was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/dbg_dmem_addr was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/dbg_dmem_din was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/dbg_halt_cpu was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/IO_7SEGEN_N was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/IO_7SEG_N was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/intr was not found in the design.
+WARNING: Simulation object sc_interrupt_sys/intr_ack was not found in the design.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"my_ila"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Aug-02 01:02:43
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"my_ila"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"my_ila"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Aug-02 01:02:43
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes intr_synced -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"my_ila"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"my_ila"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Aug-02 01:03:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"my_ila"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"my_ila"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Aug-02 01:03:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {counter} {dbg_dmem_addr} {dbg_dmem_ce} {dbg_dmem_din} {dbg_dmem_we} {dbg_halt_cpu} {dbg_imem_addr} {dbg_imem_ce} {dbg_imem_din} {dbg_imem_we} {i_ecall} {inst} {intr_synced} {IO_7SEG_N} {IO_7SEGEN_N} {IO_LED} {IO_Switch} {lock} {overflow} {pc} {SI_ClkIn} {SI_Reset_N} {unimplemented_inst} }
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes intr_synced -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"my_ila"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes i_ecall -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"my_ila"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"my_ila"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Aug-02 01:03:59
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+save_wave_config {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Aug  2 01:04:37 2025...

@@ -1,0 +1,93 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot pipelinedcpu_tb_behav xil_defaultlib.pipelinedcpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'SI_CLK100MHZ' is not connected on this instance [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISVpipelinedRV32IMF_INT/RISVpipelinedRV32IMF_INT.srcs/sim_1/new/pipelinedcpu_tb.v:340]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dffe32
+Compiling module xil_defaultlib.pl_reg_pc
+Compiling module xil_defaultlib.pc4
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.uram(A_WIDTH=14,INIT_FILE="C:/JH...
+Compiling module xil_defaultlib.pl_reg_if
+Compiling module xil_defaultlib.pl_reg_ir
+Compiling module xil_defaultlib.rv32m_fuse
+Compiling module xil_defaultlib.PulseGenerator
+Compiling module xil_defaultlib.Start_Div
+Compiling module xil_defaultlib.pl_id_cu
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.jal_addr
+Compiling module xil_defaultlib.jalr_addr
+Compiling module xil_defaultlib.branch_addr
+Compiling module xil_defaultlib.imme
+Compiling module xil_defaultlib.pl_stage_id
+Compiling module xil_defaultlib.pl_reg_de
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.pl_stage_exe
+Compiling module xil_defaultlib.pl_reg_em
+Compiling module xil_defaultlib.pipelinedcpu_decode
+Compiling module xil_defaultlib.uram(A_WIDTH=14,INIT_FILE="C:/JH...
+Compiling module xil_defaultlib.milliscounter
+Compiling module xil_defaultlib.regR
+Compiling module xil_defaultlib.microsCounter
+Compiling module xil_defaultlib.toggleBuzz
+Compiling module xil_defaultlib.buzzer
+Compiling module xil_defaultlib.SPI_Master(SPI_MODE=3,CLKS_PER_H...
+Compiling module xil_defaultlib.pmod_als_spi_receiver
+Compiling module xil_defaultlib.sevensegdec
+Compiling module xil_defaultlib.counter(WIDTH=16)
+Compiling module xil_defaultlib.counter(WIDTH=3)
+Compiling module xil_defaultlib.mux8
+Compiling module xil_defaultlib.mux8(WIDTH=4)
+Compiling module xil_defaultlib.sevensegtimer
+Compiling module xil_defaultlib.cpugpio
+Compiling module xil_defaultlib.pl_stage_mem
+Compiling module xil_defaultlib.pl_reg_mw
+Compiling module xil_defaultlib.pl_stage_wb
+Compiling module xil_defaultlib.regfile2w
+Compiling module xil_defaultlib.fadd_align
+Compiling module xil_defaultlib.reg_align_cal
+Compiling module xil_defaultlib.fadd_cal
+Compiling module xil_defaultlib.reg_cal_norm
+Compiling module xil_defaultlib.fadd_norm
+Compiling module xil_defaultlib.pipelined_fadder
+Compiling module xil_defaultlib.csa
+Compiling module xil_defaultlib.wallace_24x24
+Compiling module xil_defaultlib.fmul_mul
+Compiling module xil_defaultlib.reg_mul_add
+Compiling module xil_defaultlib.fmul_add
+Compiling module xil_defaultlib.reg_add_norm
+Compiling module xil_defaultlib.fmul_norm
+Compiling module xil_defaultlib.pipelined_fmul
+Compiling module xil_defaultlib.shift_to_msb_equ_1
+Compiling module xil_defaultlib.wallace_26x24
+Compiling module xil_defaultlib.wallace_26x24_product
+Compiling module xil_defaultlib.wallace_26x26
+Compiling module xil_defaultlib.wallace_26x26_product
+Compiling module xil_defaultlib.wallace_24x26
+Compiling module xil_defaultlib.newton24
+Compiling module xil_defaultlib.fdiv_newton
+Compiling module xil_defaultlib.shift_even_bits
+Compiling module xil_defaultlib.wallace_24x28
+Compiling module xil_defaultlib.wallace_24x28_product
+Compiling module xil_defaultlib.root_newton24
+Compiling module xil_defaultlib.fsqrt_newton
+Compiling module xil_defaultlib.fpu
+Compiling module xil_defaultlib.UART_TX(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.UART_RX(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.cmdproc(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.debug_control
+Compiling module xil_defaultlib.csr_unit
+Compiling module xil_defaultlib.csr_unit_pipeline_adapter
+Compiling module xil_defaultlib.ila_0
+Compiling module xil_defaultlib.pl_computer
+Compiling module xil_defaultlib.pipelinedcpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipelinedcpu_tb_behav

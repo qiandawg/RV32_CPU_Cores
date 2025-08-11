@@ -1,0 +1,757 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Jun 19 23:21:33 2025
+# Process ID         : 35048
+# Current directory  : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.runs/synth_1
+# Command line       : vivado.exe -log mfp_nexys4_ddr.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mfp_nexys4_ddr.tcl
+# Log file           : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.runs/synth_1/mfp_nexys4_ddr.vds
+# Journal file       : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.runs/synth_1\vivado.jou
+# Running On         : QianPC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i9-12900H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16848 MB
+# Swap memory        : 30089 MB
+# Total Virtual      : 46938 MB
+# Available Virtual  : 7262 MB
+#-----------------------------------------------------------
+source mfp_nexys4_ddr.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 618.184 ; gain = 190.188
+Command: synth_design -top mfp_nexys4_ddr -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 57768
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1326.480 ; gain = 468.012
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'dbg_imem_addr', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:83]
+INFO: [Synth 8-11241] undeclared symbol 'dbg_imem_din', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:84]
+INFO: [Synth 8-11241] undeclared symbol 'dbg_imem_ce', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:85]
+INFO: [Synth 8-11241] undeclared symbol 'dbg_imem_we', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:86]
+INFO: [Synth 8-11241] undeclared symbol 'dbg_dmem_addr', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:88]
+INFO: [Synth 8-11241] undeclared symbol 'dbg_dmem_din', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:89]
+INFO: [Synth 8-11241] undeclared symbol 'dbg_dmem_ce', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:90]
+INFO: [Synth 8-11241] undeclared symbol 'dbg_dmem_we', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:91]
+WARNING: [Synth 8-8895] 'dbg_imem_addr' is already implicitly declared on line 83 [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:123]
+WARNING: [Synth 8-8895] 'dbg_imem_din' is already implicitly declared on line 84 [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:124]
+WARNING: [Synth 8-8895] 'dbg_imem_ce' is already implicitly declared on line 85 [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:125]
+WARNING: [Synth 8-8895] 'dbg_imem_we' is already implicitly declared on line 86 [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:126]
+WARNING: [Synth 8-8895] 'dbg_dmem_addr' is already implicitly declared on line 88 [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:128]
+WARNING: [Synth 8-8895] 'dbg_dmem_din' is already implicitly declared on line 89 [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:129]
+WARNING: [Synth 8-8895] 'dbg_dmem_ce' is already implicitly declared on line 90 [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:130]
+WARNING: [Synth 8-8895] 'dbg_dmem_we' is already implicitly declared on line 91 [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:131]
+INFO: [Synth 8-6157] synthesizing module 'mfp_nexys4_ddr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/mfp_nexys4_ddr.v:20]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.runs/synth_1/.Xil/Vivado-35048-QianPC/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.runs/synth_1/.Xil/Vivado-35048-QianPC/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'sc_computer' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:24]
+INFO: [Synth 8-6157] synthesizing module 'sccpu' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sccpu.v:6]
+INFO: [Synth 8-6157] synthesizing module 'sc_cu' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/sc_cu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sc_cu' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/sc_cu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dffe32' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/dffe32.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'dffe32' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/dffe32.v:7]
+INFO: [Synth 8-6157] synthesizing module 'pc4' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/pc4.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'pc4' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/pc4.v:2]
+INFO: [Synth 8-6157] synthesizing module 'mux2x32' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/mux2x32.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'mux2x32' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/mux2x32.v:2]
+INFO: [Synth 8-6157] synthesizing module 'mux4x32' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/mux4x32.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'mux4x32' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/mux4x32.v:2]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/regfile.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/regfile.v:2]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/alu.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/alu.v:15]
+INFO: [Synth 8-6157] synthesizing module 'rv32m_fuseALU' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/rv32m_fuseALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dffe' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/dffe.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dffe' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/dffe.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dffe5' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/dffe5.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dffe5' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/dffe5.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dffe3' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/dffe3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dffe3' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/dffe3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux8x32' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/mux8x32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux8x32' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/mux8x32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mul_div' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/mul_div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rv32m_fuse' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/rv32m_fuse.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rv32m_fuse' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/rv32m_fuse.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Start_Div_mul' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/Start_Div_mul.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/Start_Div_mul.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'Start_Div_mul' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/Start_Div_mul.v:1]
+WARNING: [Synth 8-7071] port 'reset' of module 'Start_Div_mul' is unconnected for instance 'Start_Div_mul' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/mul_div.v:83]
+WARNING: [Synth 8-7023] instance 'Start_Div_mul' of module 'Start_Div_mul' has 8 connections declared, but only 7 given [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/mul_div.v:83]
+INFO: [Synth 8-6157] synthesizing module 'multiplysignedsigned' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/new/multiplysignedsigned.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'multiplysignedsigned' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/new/multiplysignedsigned.v:23]
+INFO: [Synth 8-6157] synthesizing module 'multiplysignedunsigned' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/new/multiplysignedunsigned.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'multiplysignedunsigned' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/new/multiplysignedunsigned.v:22]
+INFO: [Synth 8-6157] synthesizing module 'multiplyunsignedunsigned' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/new/multiplyunsignedunsigned.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'multiplyunsignedunsigned' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/new/multiplyunsignedunsigned.v:22]
+INFO: [Synth 8-6157] synthesizing module 'UDivide' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/UDivide.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'UDivide' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/UDivide.v:21]
+INFO: [Synth 8-6157] synthesizing module 'SDivide' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/SDivide.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'SDivide' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/SDivide.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Basic_and' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/Basic_and.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Basic_and' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/Basic_and.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mul_div' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/mul_div.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rv32m_fuseALU' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/rv32m_fuseALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'jal_addr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/jal_addr.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'jal_addr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/jal_addr.v:2]
+INFO: [Synth 8-6157] synthesizing module 'jalr_addr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/jalr_addr.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'jalr_addr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/jalr_addr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'imme' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/imme.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'imme' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/imme.v:2]
+INFO: [Synth 8-6157] synthesizing module 'branch_addr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/branch_addr.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'branch_addr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/branch_addr.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'sccpu' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sccpu.v:6]
+INFO: [Synth 8-6157] synthesizing module 'uram' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/uram.v:2]
+	Parameter A_WIDTH bound to: 8 - type: integer 
+	Parameter INIT_FILE bound to: C:/JHU_Classes/RISC_V/RISCV-cpu/Software/Assembly/RISCVscSwitchLED7Seg/imem.mem - type: string 
+	Parameter READ_DELAY bound to: 0 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/JHU_Classes/RISC_V/RISCV-cpu/Software/Assembly/RISCVscSwitchLED7Seg/imem.mem' is read successfully [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/uram.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'uram' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/uram.v:2]
+INFO: [Synth 8-6157] synthesizing module 'uram__parameterized0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/uram.v:2]
+	Parameter A_WIDTH bound to: 8 - type: integer 
+	Parameter INIT_FILE bound to: C:/JHU_Classes/RISC_V/RISCV-cpu/Software/Assembly/RISCVscSwitchLED7Seg/dmem.mem - type: string 
+	Parameter READ_DELAY bound to: 0 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/JHU_Classes/RISC_V/RISCV-cpu/Software/Assembly/RISCVscSwitchLED7Seg/dmem.mem' is read successfully [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/uram.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'uram__parameterized0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/uram.v:2]
+INFO: [Synth 8-6157] synthesizing module 'sccomp_decoder' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sccomp_decoder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sccomp_decoder' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sccomp_decoder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cpugpio' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/cpugpio.v:9]
+INFO: [Synth 8-6157] synthesizing module 'milliscounter' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/milliscounter.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'milliscounter' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/milliscounter.v:7]
+INFO: [Synth 8-6157] synthesizing module 'buzzer' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/buzzer.v:7]
+INFO: [Synth 8-6157] synthesizing module 'regR' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/buzzer.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'regR' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/buzzer.v:66]
+INFO: [Synth 8-6157] synthesizing module 'microsCounter' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/buzzer.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'microsCounter' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/buzzer.v:30]
+INFO: [Synth 8-6157] synthesizing module 'toggleBuzz' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/buzzer.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'toggleBuzz' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/buzzer.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'buzzer' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/buzzer.v:7]
+INFO: [Synth 8-6157] synthesizing module 'SPI_Master' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/SPI_Master.v:56]
+	Parameter SPI_MODE bound to: 3 - type: integer 
+	Parameter CLKS_PER_HALF_BIT bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SPI_Master' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/SPI_Master.v:56]
+INFO: [Synth 8-6157] synthesizing module 'pmod_als_spi_receiver' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/pmod_als_spi_receiver.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pmod_als_spi_receiver' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/pmod_als_spi_receiver.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sevensegtimer' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:7]
+INFO: [Synth 8-6157] synthesizing module 'sevensegdec' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/sevensegdec.v:7]
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/sevensegdec.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'sevensegdec' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/sevensegdec.v:7]
+INFO: [Synth 8-6157] synthesizing module 'counter' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:51]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:51]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:51]
+	Parameter WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:51]
+INFO: [Synth 8-6157] synthesizing module 'mux8' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:64]
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mux8' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:64]
+INFO: [Synth 8-6157] synthesizing module 'mux8__parameterized0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:64]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mux8__parameterized0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'sevensegtimer' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/sevensegtimer.v:7]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/cpugpio.v:153]
+INFO: [Synth 8-6155] done synthesizing module 'cpugpio' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/cpugpio.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'sc_computer' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/sc_computer.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'mfp_nexys4_ddr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/mfp_nexys4_ddr.v:20]
+WARNING: [Synth 8-6014] Unused sequential element func3_d_reg was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/Start_Div_mul.v:22]
+WARNING: [Synth 8-6014] Unused sequential element Dsign_reg was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/RISC-Vrv32m/SDivide.v:60]
+WARNING: [Synth 8-6014] Unused sequential element r_TX_DV_reg was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/SPI_Master.v:172]
+WARNING: [Synth 8-6014] Unused sequential element IOwait_counter_reg was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/cpugpio.v:76]
+WARNING: [Synth 8-6014] Unused sequential element IOready_reg was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/RTL/Common/io/cpugpio.v:77]
+WARNING: [Synth 8-3848] Net JD in module/entity mfp_nexys4_ddr does not have driver. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/sources_1/imports/Documents/cod_riscv_cpu/mfp_nexys4_ddr.v:31]
+WARNING: [Synth 8-7129] Port HADDR[31] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[30] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[29] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[21] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[20] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[19] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[18] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[17] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[16] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[15] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[14] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[13] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[12] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[11] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[10] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[9] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[8] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[7] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[6] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[5] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[4] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[3] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[2] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[1] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[0] in module sccomp_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[24] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[23] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[22] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[21] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[20] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[19] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[18] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[17] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[16] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[15] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[14] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[13] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[12] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[19] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[18] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[17] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[16] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[15] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[14] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[13] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[12] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[11] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[10] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[9] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[8] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[7] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[11] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[10] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[9] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[8] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[7] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module rv32m_fuse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clrn in module rv32m_fuse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rv32m in module rv32m_fuse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mdwait in module sc_cu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port fuse in module sc_cu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mul_fuse in module sc_cu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rem_fuse in module sc_cu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[4] in module sc_computer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[3] in module sc_computer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[2] in module sc_computer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[1] in module sc_computer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port memclk in module sc_computer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RX in module sc_computer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JC[6] in module mfp_nexys4_ddr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JC[5] in module mfp_nexys4_ddr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JC[3] in module mfp_nexys4_ddr is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1449.070 ; gain = 590.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1449.070 ; gain = 590.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1449.070 ; gain = 590.602
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1449.070 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Finished Parsing XDC File [c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Parsing XDC File [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc]
+WARNING: [Vivado 12-508] No pins matched 'clk_wiz_0/inst/plle2_adv_inst/CLKOUT0'. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc:254]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk_virt' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc:256]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'tck' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc:261]
+Finished Parsing XDC File [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/mfp_nexys4_ddr_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mfp_nexys4_ddr_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mfp_nexys4_ddr_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1544.547 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1544.547 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1544.547 ; gain = 686.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1544.547 ; gain = 686.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1544.547 ; gain = 686.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1544.547 ; gain = 686.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 2     
+	   2 Input   32 Bit       Adders := 9     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 4     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               64 Bit    Registers := 3     
+	               32 Bit    Registers := 45    
+	               16 Bit    Registers := 4     
+	                8 Bit    Registers := 4     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 5     
+	                3 Bit    Registers := 5     
+	                1 Bit    Registers := 35    
++---Multipliers : 
+	              32x32  Multipliers := 2     
+	              32x64  Multipliers := 1     
++---RAMs : 
+	               8K Bit	(256 X 32 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 45    
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 2     
+	   3 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 67    
+	   4 Input    1 Bit        Muxes := 3     
+	  11 Input    1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP multiplysignedsigned/result0, operation Mode is: A*B.
+DSP Report: operator multiplysignedsigned/result0 is absorbed into DSP multiplysignedsigned/result0.
+DSP Report: operator multiplysignedsigned/result0 is absorbed into DSP multiplysignedsigned/result0.
+DSP Report: Generating DSP multiplysignedsigned/result_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register multiplysignedsigned/result_reg is absorbed into DSP multiplysignedsigned/result_reg.
+DSP Report: operator multiplysignedsigned/result0 is absorbed into DSP multiplysignedsigned/result_reg.
+DSP Report: operator multiplysignedsigned/result0 is absorbed into DSP multiplysignedsigned/result_reg.
+DSP Report: Generating DSP multiplysignedsigned/result0, operation Mode is: A*B.
+DSP Report: operator multiplysignedsigned/result0 is absorbed into DSP multiplysignedsigned/result0.
+DSP Report: operator multiplysignedsigned/result0 is absorbed into DSP multiplysignedsigned/result0.
+DSP Report: Generating DSP multiplysignedsigned/result_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register multiplysignedsigned/result_reg is absorbed into DSP multiplysignedsigned/result_reg.
+DSP Report: operator multiplysignedsigned/result0 is absorbed into DSP multiplysignedsigned/result_reg.
+DSP Report: operator multiplysignedsigned/result0 is absorbed into DSP multiplysignedsigned/result_reg.
+DSP Report: Generating DSP multiplysignedunsigned/result0, operation Mode is: A*B.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result0.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result0.
+DSP Report: Generating DSP multiplysignedunsigned/result_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register multiplysignedunsigned/result_reg is absorbed into DSP multiplysignedunsigned/result_reg.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result_reg.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result_reg.
+DSP Report: Generating DSP multiplysignedunsigned/result0, operation Mode is: A*B.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result0.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result0.
+DSP Report: Generating DSP multiplysignedunsigned/result0, operation Mode is: PCIN+A*B.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result0.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result0.
+DSP Report: Generating DSP multiplysignedunsigned/result_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register multiplysignedunsigned/result_reg is absorbed into DSP multiplysignedunsigned/result_reg.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result_reg.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result_reg.
+DSP Report: Generating DSP multiplysignedunsigned/result0, operation Mode is: A*B.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result0.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result0.
+DSP Report: Generating DSP multiplysignedunsigned/result0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result0.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result0.
+DSP Report: Generating DSP multiplysignedunsigned/result_reg, operation Mode is: (PCIN+A*B)'.
+DSP Report: register multiplysignedunsigned/result_reg is absorbed into DSP multiplysignedunsigned/result_reg.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result_reg.
+DSP Report: operator multiplysignedunsigned/result0 is absorbed into DSP multiplysignedunsigned/result_reg.
+DSP Report: Generating DSP multiplyunsignedunsigned/result0, operation Mode is: A*B.
+DSP Report: operator multiplyunsignedunsigned/result0 is absorbed into DSP multiplyunsignedunsigned/result0.
+DSP Report: operator multiplyunsignedunsigned/result0 is absorbed into DSP multiplyunsignedunsigned/result0.
+DSP Report: Generating DSP multiplyunsignedunsigned/result_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register multiplyunsignedunsigned/result_reg is absorbed into DSP multiplyunsignedunsigned/result_reg.
+DSP Report: operator multiplyunsignedunsigned/result0 is absorbed into DSP multiplyunsignedunsigned/result_reg.
+DSP Report: operator multiplyunsignedunsigned/result0 is absorbed into DSP multiplyunsignedunsigned/result_reg.
+DSP Report: Generating DSP multiplyunsignedunsigned/result0, operation Mode is: A*B.
+DSP Report: operator multiplyunsignedunsigned/result0 is absorbed into DSP multiplyunsignedunsigned/result0.
+DSP Report: operator multiplyunsignedunsigned/result0 is absorbed into DSP multiplyunsignedunsigned/result0.
+DSP Report: Generating DSP multiplyunsignedunsigned/result_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register multiplyunsignedunsigned/result_reg is absorbed into DSP multiplyunsignedunsigned/result_reg.
+DSP Report: operator multiplyunsignedunsigned/result0 is absorbed into DSP multiplyunsignedunsigned/result_reg.
+DSP Report: operator multiplyunsignedunsigned/result0 is absorbed into DSP multiplyunsignedunsigned/result_reg.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[47]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[46]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[45]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[44]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[43]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[42]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[41]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[40]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[39]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[38]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[37]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[36]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[35]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[34]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[33]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[32]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[31]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[30]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[29]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[28]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[27]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[26]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[25]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[24]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[23]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[22]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[21]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[20]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[19]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[18]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[17]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[16]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[15]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[47]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[46]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[45]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[44]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[43]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[42]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[41]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[40]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[39]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[38]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[37]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[36]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[35]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[34]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[33]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[32]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[31]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[30]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[29]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[28]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[27]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[26]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[25]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[24]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[23]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[22]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[21]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[20]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[19]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[18]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedsigned/result_reg[17]__0) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[47]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[46]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[45]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[44]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[43]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[42]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[41]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[40]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[39]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[38]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[37]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[36]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[35]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[34]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[33]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[32]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[31]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[30]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[29]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[28]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[27]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[26]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[25]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[24]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[23]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[22]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[21]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[20]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[19]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[18]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[17]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[16]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[15]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[14]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[13]) is unused and will be removed from module rv32m_fuseALU.
+WARNING: [Synth 8-3332] Sequential element (mul_div/multiplysignedunsigned/result_reg[47]__0) is unused and will be removed from module rv32m_fuseALU.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1562.816 ; gain = 704.348
+---------------------------------------------------------------------------------
+ Sort Area is  multiplysignedunsigned/result0_6 : 0 0 : 3101 9028 : Used 1 time 0
+ Sort Area is  multiplysignedunsigned/result0_6 : 0 1 : 2778 9028 : Used 1 time 0
+ Sort Area is  multiplysignedunsigned/result0_6 : 0 2 : 3149 9028 : Used 1 time 0
+ Sort Area is  multiplysignedunsigned/result0_9 : 0 0 : 2759 8686 : Used 1 time 0
+ Sort Area is  multiplysignedunsigned/result0_9 : 0 1 : 3101 8686 : Used 1 time 0
+ Sort Area is  multiplysignedunsigned/result0_9 : 0 2 : 2826 8686 : Used 1 time 0
+ Sort Area is  multiplyunsignedunsigned/result0_10 : 0 0 : 3101 5927 : Used 1 time 0
+ Sort Area is  multiplyunsignedunsigned/result0_10 : 0 1 : 2826 5927 : Used 1 time 0
+ Sort Area is  multiplysignedsigned/result0_0 : 0 0 : 3101 5802 : Used 1 time 0
+ Sort Area is  multiplysignedsigned/result0_0 : 0 1 : 2701 5802 : Used 1 time 0
+ Sort Area is  multiplyunsignedunsigned/result0_11 : 0 0 : 2759 5466 : Used 1 time 0
+ Sort Area is  multiplyunsignedunsigned/result0_11 : 0 1 : 2707 5466 : Used 1 time 0
+ Sort Area is  multiplysignedsigned/result0_3 : 0 0 : 2634 5167 : Used 1 time 0
+ Sort Area is  multiplysignedsigned/result0_3 : 0 1 : 2533 5167 : Used 1 time 0
+ Sort Area is  multiplysignedunsigned/result0_d : 0 0 : 2460 4887 : Used 1 time 0
+ Sort Area is  multiplysignedunsigned/result0_d : 0 1 : 2427 4887 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++---------------+--------------------------+-----------+----------------------+-----------------+
+|Module Name    | RTL Object               | Inference | Size (Depth x Width) | Primitives      | 
++---------------+--------------------------+-----------+----------------------+-----------------+
+|mfp_nexys4_ddr | sc_computer/dmem/ram_reg | Implied   | 256 x 32             | RAM256X1S x 32  | 
+|mfp_nexys4_ddr | sc_computer/imem/ram_reg | Implied   | 256 x 32             | RAM256X1S x 32  | 
++---------------+--------------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mul_div     | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|mul_div     | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|mul_div     | A*B            | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | (PCIN>>17)+A*B | 16     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|mul_div     | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | PCIN+A*B       | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|mul_div     | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | (PCIN+A*B)'    | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|mul_div     | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|mul_div     | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 1699.477 ; gain = 841.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 1769.348 ; gain = 910.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++---------------+--------------------------+-----------+----------------------+-----------------+
+|Module Name    | RTL Object               | Inference | Size (Depth x Width) | Primitives      | 
++---------------+--------------------------+-----------+----------------------+-----------------+
+|mfp_nexys4_ddr | sc_computer/dmem/ram_reg | Implied   | 256 x 32             | RAM256X1S x 32  | 
+|mfp_nexys4_ddr | sc_computer/imem/ram_reg | Implied   | 256 x 32             | RAM256X1S x 32  | 
++---------------+--------------------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:50 ; elapsed = 00:00:55 . Memory (MB): peak = 1779.430 ; gain = 920.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:01:00 . Memory (MB): peak = 1935.520 ; gain = 1077.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:01:00 . Memory (MB): peak = 1935.520 ; gain = 1077.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 1935.520 ; gain = 1077.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 1935.520 ; gain = 1077.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 1935.520 ; gain = 1077.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 1935.520 ; gain = 1077.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping     | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mul_div     | (A*B)'          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|mul_div     | A*B             | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | (PCIN>>17+A*B)' | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|mul_div     | (A*B)'          | 17     | 13     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|mul_div     | A*B             | 17     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | PCIN+A*B        | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | (PCIN>>17+A*B)' | 17     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|mul_div     | A*B             | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | PCIN>>17+A*B    | 17     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mul_div     | (PCIN+A*B)'     | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |clk_wiz   |     1|
+|2     |CARRY4    |    82|
+|3     |DSP48E1   |    10|
+|5     |LUT1      |    11|
+|6     |LUT2      |   247|
+|7     |LUT3      |   199|
+|8     |LUT4      |   107|
+|9     |LUT5      |   299|
+|10    |LUT6      |   686|
+|11    |MUXF7     |   204|
+|12    |MUXF8     |     8|
+|13    |RAM256X1S |    59|
+|14    |FDCE      |  1240|
+|15    |FDPE      |    48|
+|16    |FDRE      |    79|
+|17    |FDSE      |     2|
+|18    |IBUF      |    23|
+|19    |OBUF      |    40|
+|20    |OBUFT     |     7|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 1935.520 ; gain = 1077.051
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 347 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:00:58 . Memory (MB): peak = 1935.520 ; gain = 981.574
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 1935.520 ; gain = 1077.051
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1944.703 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 363 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1948.379 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 59 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 59 instances
+
+Synth Design complete | Checksum: 484daa58
+INFO: [Common 17-83] Releasing license: Synthesis
+126 Infos, 219 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:07 . Memory (MB): peak = 1948.379 ; gain = 1291.992
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1948.379 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVrv32IM/RISCVrv32IM.runs/synth_1/mfp_nexys4_ddr.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file mfp_nexys4_ddr_utilization_synth.rpt -pb mfp_nexys4_ddr_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 19 23:22:57 2025...

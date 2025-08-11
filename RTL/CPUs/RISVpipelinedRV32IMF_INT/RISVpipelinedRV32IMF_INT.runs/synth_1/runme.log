@@ -1,0 +1,711 @@
+
+*** Running vivado
+    with args -log mfp_nexys4_ddr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mfp_nexys4_ddr.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Mon Jul 14 02:22:39 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+WARNING: [Runs 36-547] User Strategy 'Vivado Implementation Defaults' from file 'C:\Users\lamqi\AppData\Roaming/Xilinx/Vivado/2024.2/strategies/Vivado Implementation Defaults.Vivado Implementation 2020.psg' discarded because strategy with same name already parsed from 'C:/Xilinx/Vivado/2024.2/strategies/VDI2020.psg'
+source mfp_nexys4_ddr.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 621.082 ; gain = 189.887
+Command: synth_design -top mfp_nexys4_ddr -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 41416
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1331.301 ; gain = 468.961
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'CPU_RESET', assumed default net type 'wire' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/mfp_nexys4_ddr.v:39]
+INFO: [Synth 8-6157] synthesizing module 'mfp_nexys4_ddr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/mfp_nexys4_ddr.v:18]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.runs/synth_1/.Xil/Vivado-9952-QianPC/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.runs/synth_1/.Xil/Vivado-9952-QianPC/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'button_debounce' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/new/button_debounce.v:24]
+	Parameter DEBOUNCE_PERIOD bound to: 1000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'button_debounce' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/new/button_debounce.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pl_computer' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pl_reg_pc' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_pc.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dffe32' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/dffe32.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dffe32' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/dffe32.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pl_reg_pc' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_pc.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pc4' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pc4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pc4' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pc4.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux4x32' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/mux4x32.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mux4x32' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/mux4x32.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pl_reg_if' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_if.v:6]
+INFO: [Synth 8-6157] synthesizing module 'uram' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/uram.v:2]
+	Parameter A_WIDTH bound to: 14 - type: integer 
+	Parameter INIT_FILE bound to: C:/JHU_Classes/RISC_V/RISCV-cpu/Software/Assembly/FPUpipeline_test/imem.mem - type: string 
+	Parameter READ_DELAY bound to: 0 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/JHU_Classes/RISC_V/RISCV-cpu/Software/Assembly/FPUpipeline_test/imem.mem' is read successfully [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/uram.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'uram' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/uram.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'pl_reg_if' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_if.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pl_reg_ir' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_ir.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pl_reg_ir' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_ir.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pl_stage_id' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_id.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pl_id_cu' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_id_cu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'rv32m_fuse' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISC-Vrv32m/rv32m_fuse.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rv32m_fuse' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISC-Vrv32m/rv32m_fuse.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Start_Div' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISC-Vrv32m/Start_Div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PulseGenerator' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISC-Vrv32m/PulseGenerator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PulseGenerator' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISC-Vrv32m/PulseGenerator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Start_Div' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISC-Vrv32m/Start_Div.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pl_id_cu' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_id_cu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/regfile.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/regfile.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mux2x32' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/mux2x32.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mux2x32' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/mux2x32.v:6]
+INFO: [Synth 8-6157] synthesizing module 'jal_addr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/jal_addr.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'jal_addr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/jal_addr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'jalr_addr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/jalr_addr.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'jalr_addr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/jalr_addr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'branch_addr' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/branch_addr.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'branch_addr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/branch_addr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'imme' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/imme.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'imme' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/imme.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pl_stage_id' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_id.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pl_reg_de' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_de.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pl_reg_de' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_de.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pl_stage_exe' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_exe.v:2]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/alu.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/alu.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'pl_stage_exe' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_exe.v:2]
+INFO: [Synth 8-6157] synthesizing module 'pl_reg_em' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_em.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pl_reg_em' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_em.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pl_stage_mem' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_mem.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pipelinedcpu_decode' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pipelinedcpu_decode.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'pipelinedcpu_decode' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pipelinedcpu_decode.v:25]
+INFO: [Synth 8-6157] synthesizing module 'uram__parameterized0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/uram.v:2]
+	Parameter A_WIDTH bound to: 14 - type: integer 
+	Parameter INIT_FILE bound to: C:/JHU_Classes/RISC_V/RISCV-cpu/Software/Assembly/FPUpipeline_test/dmem.mem - type: string 
+	Parameter READ_DELAY bound to: 0 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/JHU_Classes/RISC_V/RISCV-cpu/Software/Assembly/FPUpipeline_test/dmem.mem' is read successfully [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/uram.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'uram__parameterized0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/uram.v:2]
+INFO: [Synth 8-6157] synthesizing module 'cpugpio' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/cpugpio.v:9]
+INFO: [Synth 8-6157] synthesizing module 'milliscounter' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/milliscounter.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'milliscounter' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/milliscounter.v:7]
+INFO: [Synth 8-6157] synthesizing module 'buzzer' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/buzzer.v:7]
+INFO: [Synth 8-6157] synthesizing module 'regR' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/buzzer.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'regR' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/buzzer.v:66]
+INFO: [Synth 8-6157] synthesizing module 'microsCounter' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/buzzer.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'microsCounter' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/buzzer.v:30]
+INFO: [Synth 8-6157] synthesizing module 'toggleBuzz' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/buzzer.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'toggleBuzz' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/buzzer.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'buzzer' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/buzzer.v:7]
+INFO: [Synth 8-6157] synthesizing module 'SPI_Master' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/SPI_Master.v:56]
+	Parameter SPI_MODE bound to: 3 - type: integer 
+	Parameter CLKS_PER_HALF_BIT bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SPI_Master' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/SPI_Master.v:56]
+INFO: [Synth 8-6157] synthesizing module 'pmod_als_spi_receiver' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/pmod_als_spi_receiver.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pmod_als_spi_receiver' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/pmod_als_spi_receiver.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sevensegtimer' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:7]
+INFO: [Synth 8-6157] synthesizing module 'sevensegdec' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/sevensegdec.v:7]
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/sevensegdec.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'sevensegdec' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/sevensegdec.v:7]
+INFO: [Synth 8-6157] synthesizing module 'counter' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:51]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:51]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:51]
+	Parameter WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:51]
+INFO: [Synth 8-6157] synthesizing module 'mux8' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:64]
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mux8' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:64]
+INFO: [Synth 8-6157] synthesizing module 'mux8__parameterized0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:64]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mux8__parameterized0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'sevensegtimer' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v:7]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/cpugpio.v:153]
+INFO: [Synth 8-6155] done synthesizing module 'cpugpio' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/cpugpio.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'pl_stage_mem' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_mem.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pl_reg_mw' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_mw.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pl_reg_mw' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_mw.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pl_stage_wb' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_wb.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pl_stage_wb' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_wb.v:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile2w' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/imports/regfile2w.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'regfile2w' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/imports/regfile2w.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fpu' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fpu/fpu.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pipelined_fadder' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/pipelined_fadder.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fadd_align' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/fadd_align.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fadd_align' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/fadd_align.v:6]
+INFO: [Synth 8-6157] synthesizing module 'reg_align_cal' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/reg_align_cal.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'reg_align_cal' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/reg_align_cal.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fadd_cal' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/fadd_cal.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fadd_cal' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/fadd_cal.v:6]
+INFO: [Synth 8-6157] synthesizing module 'reg_cal_norm' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/reg_cal_norm.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'reg_cal_norm' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/reg_cal_norm.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fadd_norm' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/fadd_norm.v:6]
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/fadd_norm.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'fadd_norm' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/fadd_norm.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pipelined_fadder' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fadd/pipelined_fadder.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pipelined_fmul' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/pipelined_fmul.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fmul_mul' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/fmul_mul.v:6]
+INFO: [Synth 8-6157] synthesizing module 'wallace_24x24' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_24x24.v:6]
+INFO: [Synth 8-6157] synthesizing module 'csa' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/csa.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'csa' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/csa.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wallace_24x24' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_24x24.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fmul_mul' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/fmul_mul.v:6]
+INFO: [Synth 8-6157] synthesizing module 'reg_mul_add' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/reg_mul_add.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'reg_mul_add' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/reg_mul_add.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fmul_add' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/fmul_add.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fmul_add' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/fmul_add.v:6]
+INFO: [Synth 8-6157] synthesizing module 'reg_add_norm' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/reg_add_norm.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'reg_add_norm' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/reg_add_norm.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fmul_norm' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/fmul_norm.v:6]
+INFO: [Synth 8-226] default block is never used [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/fmul_norm.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'fmul_norm' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/fmul_norm.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pipelined_fmul' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/pipelined_fmul.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fdiv_newton' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/fdiv_newton.v:6]
+INFO: [Synth 8-6157] synthesizing module 'shift_to_msb_equ_1' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/shift_to_msb_equ_1.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'shift_to_msb_equ_1' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/shift_to_msb_equ_1.v:6]
+INFO: [Synth 8-6157] synthesizing module 'newton24' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/newton24.v:6]
+INFO: [Synth 8-6157] synthesizing module 'wallace_26x24_product' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_26x24_product.v:6]
+INFO: [Synth 8-6157] synthesizing module 'wallace_26x24' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_26x24.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wallace_26x24' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_26x24.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wallace_26x24_product' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_26x24_product.v:6]
+INFO: [Synth 8-6157] synthesizing module 'wallace_26x26_product' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_26x26_product.v:6]
+INFO: [Synth 8-6157] synthesizing module 'wallace_26x26' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_26x26.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wallace_26x26' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_26x26.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wallace_26x26_product' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_26x26_product.v:6]
+INFO: [Synth 8-6157] synthesizing module 'wallace_24x26' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_24x26.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wallace_24x26' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_24x26.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'newton24' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/newton24.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fdiv_newton' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/fdiv_newton.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fsqrt_newton' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/fsqrt_newton.v:6]
+INFO: [Synth 8-6157] synthesizing module 'shift_even_bits' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/shift_even_bits.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'shift_even_bits' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/shift_even_bits.v:6]
+INFO: [Synth 8-6157] synthesizing module 'root_newton24' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/root_newton24.v:6]
+INFO: [Synth 8-6157] synthesizing module 'wallace_24x28_product' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_24x28_product.v:6]
+INFO: [Synth 8-6157] synthesizing module 'wallace_24x28' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_24x28.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wallace_24x28' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_24x28.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'wallace_24x28_product' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/wallace_24x28_product.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'root_newton24' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/root_newton24.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fsqrt_newton' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/fsqrt_newton.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fpu' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/FPU files/fpu/fpu.v:6]
+INFO: [Synth 8-6157] synthesizing module 'debug_control' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/uart-debug/debug_control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cmdproc' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v:22]
+	Parameter CLKS_PER_BIT bound to: 434 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'UART_TX' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:14]
+	Parameter CLKS_PER_BIT bound to: 434 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'UART_TX' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:14]
+INFO: [Synth 8-6157] synthesizing module 'UART_RX' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v:15]
+	Parameter CLKS_PER_BIT bound to: 434 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'UART_RX' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v:15]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v:279]
+INFO: [Synth 8-6155] done synthesizing module 'cmdproc' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'debug_control' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/uart-debug/debug_control.v:1]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:201]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.runs/synth_1/.Xil/Vivado-9952-QianPC/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.runs/synth_1/.Xil/Vivado-9952-QianPC/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pl_computer' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mfp_nexys4_ddr' (0#1) [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/mfp_nexys4_ddr.v:18]
+WARNING: [Synth 8-3848] Net wremw in module/entity pl_id_cu does not have driver. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_id_cu.v:23]
+WARNING: [Synth 8-3848] Net is_fpu in module/entity pl_id_cu does not have driver. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_id_cu.v:39]
+WARNING: [Synth 8-3848] Net z in module/entity pl_stage_id does not have driver. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_id.v:97]
+WARNING: [Synth 8-6014] Unused sequential element r_TX_DV_reg was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/SPI_Master.v:172]
+WARNING: [Synth 8-6014] Unused sequential element IOwait_counter_reg was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/cpugpio.v:76]
+WARNING: [Synth 8-6014] Unused sequential element IOready_reg was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/Common/io/cpugpio.v:77]
+WARNING: [Synth 8-7137] Register reg_a_reg in module newton24 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/newton24.v:38]
+WARNING: [Synth 8-7137] Register reg_b_reg in module newton24 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/newton24.v:39]
+WARNING: [Synth 8-7137] Register reg_d_reg in module root_newton24 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/Library/root_newton24.v:35]
+WARNING: [Synth 8-7137] Register o_TX_Serial_reg in module UART_TX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:53]
+WARNING: [Synth 8-7137] Register r_Clock_Count_reg in module UART_TX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:55]
+WARNING: [Synth 8-7137] Register r_Bit_Index_reg in module UART_TX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:56]
+WARNING: [Synth 8-7137] Register r_TX_Data_reg in module UART_TX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v:61]
+WARNING: [Synth 8-7137] Register r_Clock_Count_reg in module UART_RX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v:50]
+WARNING: [Synth 8-7137] Register r_Bit_Index_reg in module UART_RX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v:51]
+WARNING: [Synth 8-7137] Register o_RX_Byte_reg in module UART_RX has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v:91]
+WARNING: [Synth 8-6014] Unused sequential element in_buf_reg[1] was removed.  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v:145]
+WARNING: [Synth 8-7137] Register tx_complete_reg in module cmdproc has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v:359]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fd_reg'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:139]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'cpu'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/mfp_nexys4_ddr.v:71]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'my_ila'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:201]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'debug_if'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:189]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fpr'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:179]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'id_stage'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:140]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fp_unit'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:184]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'de_reg'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:148]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'prog_cnt'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:133]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'pipeif'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:136]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'pc4func'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:134]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'mw_reg'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:164]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'mem_stage'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:157]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'em_reg'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:155]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'nextpc'. This will prevent further optimization [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:135]
+WARNING: [Synth 8-3848] Net stl_lw in module/entity pl_computer does not have driver. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:15]
+WARNING: [Synth 8-3848] Net stl_fp in module/entity pl_computer does not have driver. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:15]
+WARNING: [Synth 8-3848] Net stl_lwc1 in module/entity pl_computer does not have driver. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:15]
+WARNING: [Synth 8-3848] Net stl_swc1 in module/entity pl_computer does not have driver. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:15]
+WARNING: [Synth 8-3848] Net stl in module/entity pl_computer does not have driver. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:15]
+WARNING: [Synth 8-3848] Net mdwait in module/entity pl_computer does not have driver. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:129]
+WARNING: [Synth 8-7129] Port wremw in module pl_reg_mw is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[31] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[30] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[29] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[21] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[20] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[19] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[18] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[17] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[16] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[15] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[14] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[13] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[12] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[11] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[10] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[9] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[8] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[7] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[6] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[5] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[4] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[3] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[2] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[1] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port HADDR[0] in module pipelinedcpu_decode is either unconnected or has no load
+WARNING: [Synth 8-7129] Port UART_RX in module pl_stage_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wremw in module pl_reg_em is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wremw in module pl_reg_de is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module imme is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[24] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[23] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[22] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[21] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[20] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[19] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[18] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[17] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[16] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[15] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[14] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[13] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[12] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module branch_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[19] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[18] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[17] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[16] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[15] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[14] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[13] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[12] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[11] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[10] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[9] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[8] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[7] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module jalr_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[11] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[10] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[9] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[8] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[7] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module jal_addr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rv32m in module rv32m_fuse is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wremw in module pl_id_cu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port is_fpu in module pl_id_cu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clrn in module pl_id_cu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mdwait in module pl_id_cu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port efuse in module pl_id_cu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[31] in module pl_reg_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[30] in module pl_reg_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[29] in module pl_reg_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[28] in module pl_reg_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[27] in module pl_reg_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[26] in module pl_reg_if is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1561.812 ; gain = 699.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1561.812 ; gain = 699.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1561.812 ; gain = 699.473
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.185 . Memory (MB): peak = 1561.812 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Finished Parsing XDC File [c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Parsing XDC File [c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'cpu/my_ila'
+Finished Parsing XDC File [c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'cpu/my_ila'
+Parsing XDC File [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk_virt' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc:259]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'tck' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc:263]
+Finished Parsing XDC File [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mfp_nexys4_ddr_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mfp_nexys4_ddr_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1669.094 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.090 . Memory (MB): peak = 1669.094 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1669.094 ; gain = 806.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1669.094 ; gain = 806.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = TRUE for cpu. (constraint file  C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/constrs_1/imports/Common/mfp_nexys4_ddr.xdc, line 257).
+Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for cpu/my_ila. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1669.094 ; gain = 806.754
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'r_SM_Main_reg' in module 'UART_TX'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'cmdproc'
+WARNING: [Synth 8-327] inferring latch for variable 'sstartflag_reg' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISC-Vrv32m/Start_Div.v:38]
+WARNING: [Synth 8-327] inferring latch for variable 'ustartflag_reg' [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.srcs/sources_1/imports/RISC-Vrv32m/Start_Div.v:37]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                              000
+            TX_START_BIT |                              001 |                              001
+            TX_DATA_BITS |                              010 |                              010
+             TX_STOP_BIT |                              011 |                              011
+              TX_FRAMING |                              100 |                              110
+                 CLEANUP |                              101 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_SM_Main_reg' using encoding 'sequential' in module 'UART_TX'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+           STATE_UART_RX |                               00 |                               00
+           STATE_PROCESS |                               01 |                               01
+      STATE_STRING_BUILD |                               10 |                               10
+           STATE_UART_TX |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'cmdproc'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1669.094 ; gain = 806.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   49 Bit       Adders := 1     
+	   2 Input   48 Bit       Adders := 1     
+	   2 Input   44 Bit       Adders := 4     
+	   2 Input   42 Bit       Adders := 1     
+	   2 Input   40 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 5     
+	   3 Input   32 Bit       Adders := 1     
+	   3 Input   28 Bit       Adders := 1     
+	   2 Input   26 Bit       Adders := 1     
+	   2 Input   25 Bit       Adders := 4     
+	   2 Input   16 Bit       Adders := 1     
+	   5 Input   10 Bit       Adders := 2     
+	   2 Input   10 Bit       Adders := 7     
+	   3 Input   10 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 2     
+	   3 Input    8 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 5     
+	   4 Input    8 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 4     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 6     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   3 Input      1 Bit         XORs := 5485  
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               50 Bit    Registers := 2     
+	               48 Bit    Registers := 1     
+	               42 Bit    Registers := 2     
+	               40 Bit    Registers := 2     
+	               32 Bit    Registers := 87    
+	               28 Bit    Registers := 1     
+	               27 Bit    Registers := 1     
+	               26 Bit    Registers := 4     
+	               24 Bit    Registers := 6     
+	               23 Bit    Registers := 4     
+	               16 Bit    Registers := 4     
+	               10 Bit    Registers := 6     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 38    
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 15    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 8     
+	                2 Bit    Registers := 14    
+	                1 Bit    Registers := 106   
++---RAMs : 
+	             512K Bit	(16384 X 32 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   50 Bit        Muxes := 1     
+	   2 Input   47 Bit        Muxes := 9     
+	   2 Input   32 Bit        Muxes := 60    
+	   6 Input   32 Bit        Muxes := 1     
+	   4 Input   32 Bit        Muxes := 5     
+	   2 Input   28 Bit        Muxes := 1     
+	   2 Input   27 Bit        Muxes := 8     
+	   2 Input   26 Bit        Muxes := 2     
+	   2 Input   24 Bit        Muxes := 18    
+	   2 Input   23 Bit        Muxes := 5     
+	   2 Input   10 Bit        Muxes := 5     
+	   6 Input   10 Bit        Muxes := 1     
+	   6 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 24    
+	   6 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 8     
+	   7 Input    8 Bit        Muxes := 8     
+	   2 Input    5 Bit        Muxes := 6     
+	   2 Input    4 Bit        Muxes := 10    
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 11    
+	   6 Input    3 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 7     
+	   3 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 205   
+	  11 Input    1 Bit        Muxes := 10    
+	   6 Input    1 Bit        Muxes := 11    
+	   3 Input    1 Bit        Muxes := 3     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (cu/Start_Div/sstartflag_reg) is unused and will be removed from module pl_stage_id.
+WARNING: [Synth 8-3332] Sequential element (cu/Start_Div/ustartflag_reg) is unused and will be removed from module pl_stage_id.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:14 ; elapsed = 00:03:22 . Memory (MB): peak = 2547.996 ; gain = 1685.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++--------------+------------------+---------------+----------------+
+|Module Name   | RTL Object       | Depth x Width | Implemented As | 
++--------------+------------------+---------------+----------------+
+|root_newton24 | rom0             | 32x8          | LUT            | 
+|fsqrt_newton  | frac_newton/rom0 | 32x8          | LUT            | 
++--------------+------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------------+--------------+-----------+----------------------+-------------------+
+|Module Name       | RTL Object   | Inference | Size (Depth x Width) | Primitives        | 
++------------------+--------------+-----------+----------------------+-------------------+
+|cpu/i_1/mem_stage | dmem/ram_reg | Implied   | 16 K x 32            | RAM256X1S x 2048  | 
+|cpu/i_1/pipeif    | imem/ram_reg | Implied   | 16 K x 32            | RAM256X1S x 2048  | 
++------------------+--------------+-----------+----------------------+-------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'CLK100MHZ'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:20 ; elapsed = 00:03:28 . Memory (MB): peak = 2547.996 ; gain = 1685.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:04:25 ; elapsed = 00:04:35 . Memory (MB): peak = 2547.996 ; gain = 1685.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------------+--------------+-----------+----------------------+-------------------+
+|Module Name       | RTL Object   | Inference | Size (Depth x Width) | Primitives        | 
++------------------+--------------+-----------+----------------------+-------------------+
+|cpu/i_1/mem_stage | dmem/ram_reg | Implied   | 16 K x 32            | RAM256X1S x 2048  | 
+|cpu/i_1/pipeif    | imem/ram_reg | Implied   | 16 K x 32            | RAM256X1S x 2048  | 
++------------------+--------------+-----------+----------------------+-------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:04:39 ; elapsed = 00:04:49 . Memory (MB): peak = 2749.609 ; gain = 1887.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:04:42 ; elapsed = 00:04:53 . Memory (MB): peak = 2749.609 ; gain = 1887.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:42 ; elapsed = 00:04:53 . Memory (MB): peak = 2749.609 ; gain = 1887.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:44 ; elapsed = 00:04:54 . Memory (MB): peak = 2749.609 ; gain = 1887.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:44 ; elapsed = 00:04:54 . Memory (MB): peak = 2749.609 ; gain = 1887.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:45 ; elapsed = 00:04:55 . Memory (MB): peak = 2749.609 ; gain = 1887.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:45 ; elapsed = 00:04:55 . Memory (MB): peak = 2749.609 ; gain = 1887.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ila_0         |         1|
+|2     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |clk_wiz   |     1|
+|2     |ila       |     1|
+|3     |BUFG      |     1|
+|4     |CARRY4    |   258|
+|5     |LUT1      |    90|
+|6     |LUT2      |   799|
+|7     |LUT3      |  2113|
+|8     |LUT4      |  1021|
+|9     |LUT5      |  2361|
+|10    |LUT6      |  9670|
+|11    |MUXF7     |  1037|
+|12    |MUXF8     |   321|
+|13    |RAM256X1S |  4096|
+|14    |FDCE      |  3906|
+|15    |FDPE      |    48|
+|16    |FDRE      |   215|
+|17    |IBUF      |    30|
+|18    |OBUF      |    42|
+|19    |OBUFT     |     6|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:45 ; elapsed = 00:04:55 . Memory (MB): peak = 2749.609 ; gain = 1887.270
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 24 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:04:32 ; elapsed = 00:04:51 . Memory (MB): peak = 2749.609 ; gain = 1779.988
+Synthesis Optimization Complete : Time (s): cpu = 00:04:45 ; elapsed = 00:04:56 . Memory (MB): peak = 2749.609 ; gain = 1887.270
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.214 . Memory (MB): peak = 2749.609 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5712 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2749.609 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4096 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 4096 instances
+
+Synth Design complete | Checksum: 88797d77
+INFO: [Common 17-83] Releasing license: Synthesis
+206 Infos, 131 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:04:55 ; elapsed = 00:05:07 . Memory (MB): peak = 2749.609 ; gain = 2091.520
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.114 . Memory (MB): peak = 2749.609 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelinedRV32IMF/RISCVpipelinedRV32IMF.runs/synth_1/mfp_nexys4_ddr.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file mfp_nexys4_ddr_utilization_synth.rpt -pb mfp_nexys4_ddr_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 14 02:27:59 2025...

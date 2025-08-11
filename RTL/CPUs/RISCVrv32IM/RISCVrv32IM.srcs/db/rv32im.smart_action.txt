@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+SOURCE
+=======
+SOURCE
+>>>>>>> 6c103d1 (dded RISCVrv31IM 0 single cycle RISCV with multiply and divide. Also)

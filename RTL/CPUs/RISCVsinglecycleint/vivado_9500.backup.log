@@ -1,0 +1,217 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sat Aug  2 00:28:55 2025
+# Process ID         : 9500
+# Current directory  : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent27456 C:\JHU_Classes\RISC_V\riscv-cpu\RTL\CPUs\RISCVsinglecycleint\RISCVsinglecycleint.xpr
+# Log file           : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/vivado.log
+# Journal file       : C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint\vivado.jou
+# Running On         : QianPC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i9-12900H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16848 MB
+# Swap memory        : 31138 MB
+# Total Virtual      : 47986 MB
+# Available Virtual  : 15640 MB
+#-----------------------------------------------------------
+WARNING: [Runs 36-547] User Strategy 'Vivado Implementation Defaults' from file 'C:\Users\lamqi\AppData\Roaming/Xilinx/Vivado/2024.2/strategies/Vivado Implementation Defaults.Vivado Implementation 2020.psg' discarded because strategy with same name already parsed from 'C:/Xilinx/Vivado/2024.2/strategies/VDI2020.psg'
+start_gui
+open_project C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:16 . Memory (MB): peak = 1660.699 ; gain = 438.375
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sc_computer_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2024.2/data/xsim/xsim.ini' copied to run dir:'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sc_computer_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sc_computer_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.gen/sources_1/ip/ila_0/sim/ila_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/SPI_Master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_Master
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_RX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_TX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/alu_ov.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_ov
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/branch_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/buzzer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buzzer
+INFO: [VRFC 10-311] analyzing module microsCounter
+INFO: [VRFC 10-311] analyzing module toggleBuzz
+INFO: [VRFC 10-311] analyzing module regR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmdproc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/cpugpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpugpio
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr_unit
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'mie' is not allowed [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:33]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'mip' is not allowed [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/new/csr_unit.v:37]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/uart-debug/debug_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/sccompintFPGA/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/imme.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imme
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/jal_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jal_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/jalr_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jalr_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/milliscounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module milliscounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/pc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/pmod_als_spi_receiver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pmod_als_spi_receiver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_cu_intr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cu_intr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_interrupt_sys.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_interrupt_sys
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccomp_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccpu_intr
+WARNING: [VRFC 10-3380] identifier 'mstatus' is used before its declaration [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:77]
+WARNING: [VRFC 10-3380] identifier 'mstatus' is used before its declaration [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sccpu_intr.v:78]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/sevensegdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevensegdec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/io/sevensegtimer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevensegtimer
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module mux8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/mips-cpu/RTL/Common/uram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_computer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_computer_tb
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1716.039 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sc_computer_tb_behav xil_defaultlib.sc_computer_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sc_computer_tb_behav xil_defaultlib.sc_computer_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'SI_CLK100MHZ' is not connected on this instance [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.srcs/sources_1/imports/fpgauser/cod_riscv_cpu/sc_computer_tb.v:284]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sc_cu_intr
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.pc4
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.alu_ov
+Compiling module xil_defaultlib.csr_unit
+Compiling module xil_defaultlib.jal_addr
+Compiling module xil_defaultlib.jalr_addr
+Compiling module xil_defaultlib.imme
+Compiling module xil_defaultlib.branch_addr
+Compiling module xil_defaultlib.sccpu_intr
+Compiling module xil_defaultlib.uram(A_WIDTH=8,INIT_FILE="C:/JHU...
+Compiling module xil_defaultlib.uram(A_WIDTH=8,INIT_FILE="C:/JHU...
+Compiling module xil_defaultlib.sccomp_decoder
+Compiling module xil_defaultlib.milliscounter
+Compiling module xil_defaultlib.regR
+Compiling module xil_defaultlib.microsCounter
+Compiling module xil_defaultlib.toggleBuzz
+Compiling module xil_defaultlib.buzzer
+Compiling module xil_defaultlib.SPI_Master(SPI_MODE=3,CLKS_PER_H...
+Compiling module xil_defaultlib.pmod_als_spi_receiver
+Compiling module xil_defaultlib.sevensegdec
+Compiling module xil_defaultlib.counter(WIDTH=16)
+Compiling module xil_defaultlib.counter(WIDTH=3)
+Compiling module xil_defaultlib.mux8
+Compiling module xil_defaultlib.mux8(WIDTH=4)
+Compiling module xil_defaultlib.sevensegtimer
+Compiling module xil_defaultlib.cpugpio
+Compiling module xil_defaultlib.UART_TX(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.UART_RX(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.cmdproc(CLKS_PER_BIT=434)
+Compiling module xil_defaultlib.debug_control
+Compiling module xil_defaultlib.ila_0
+Compiling module xil_defaultlib.sc_interrupt_sys
+Compiling module xil_defaultlib.sc_computer_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sc_computer_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycleint/RISCVsinglecycleint.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sc_computer_tb_behav -key {Behavioral:sim_1:Functional:sc_computer_tb} -tclbatch {sc_computer_tb.tcl} -view {C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycle/sc_computer_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVsinglecycle/sc_computer_tb_behav.wcfg
+source sc_computer_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sc_computer_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1718.352 ; gain = 2.312
+run 10000 ns
+save_project_as RISCVsinglecycleint_backup {C:/JHU_Classes/Independent Study/BACKUP/RISCVsinglecycleint_backup} -force
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/JHU_Classes/Independent Study/BACKUP/RISCVsinglecycleint_backup/RISCVsinglecycleint_backup.cache/ip 
+import_files
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'clk_wiz_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'clk_wiz_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'ila_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'ila_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Aug  2 00:32:51 2025...

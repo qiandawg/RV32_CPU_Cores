@@ -1,0 +1,196 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/Basic_and.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_and
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/PulseGenerator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PulseGenerator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/SDivide.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SDivide
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/Common/io/SPI_Master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_Master
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/Start_Div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Start_Div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_RX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_RX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/UART_TX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_TX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/UDivide.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UDivide
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/branch_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/Common/io/buzzer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buzzer
+INFO: [VRFC 10-311] analyzing module microsCounter
+INFO: [VRFC 10-311] analyzing module toggleBuzz
+INFO: [VRFC 10-311] analyzing module regR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/3rd Party IP/uart-debug/cmdproc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmdproc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/Common/io/cpugpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpugpio
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/uart-debug/debug_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/dffe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffe
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/dffe3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffe3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/dffe32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffe32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/dffe5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffe5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/imme.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imme
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/jal_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jal_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/jalr_addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jalr_addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/Common/io/milliscounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module milliscounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/mul_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/multiplysignedsigned.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplysignedsigned
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/multiplysignedunsigned.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplysignedunsigned
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/multiplyunsignedunsigned.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplyunsignedunsigned
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/mux8x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pc4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pipelinedcpu_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelinedcpu_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_computer
+WARNING: [VRFC 10-2938] 'fs' is already implicitly declared on line 125 [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:154]
+WARNING: [VRFC 10-2938] 'fc' is already implicitly declared on line 125 [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:155]
+WARNING: [VRFC 10-2938] 'fwdla' is already implicitly declared on line 126 [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_computer.v:157]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_id_cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_id_cu
+WARNING: [VRFC 10-3248] data object 'i_fs' is already declared [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_id_cu.v:165]
+WARNING: [VRFC 10-9364] second declaration of 'i_fs' is ignored [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_id_cu.v:165]
+WARNING: [VRFC 10-3248] data object 'i_ft' is already declared [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_id_cu.v:166]
+WARNING: [VRFC 10-9364] second declaration of 'i_ft' is ignored [C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_id_cu.v:166]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_de.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_reg_de
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_em.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_reg_em
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_reg_if
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_ir.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_reg_ir
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_mw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_reg_mw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_reg_pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_reg_pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_exe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_stage_exe
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_stage_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_stage_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/pl_stage_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pl_stage_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/Common/io/pmod_als_spi_receiver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pmod_als_spi_receiver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/rv32m_fuse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32m_fuse
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISC-Vrv32m/rv32m_fuseALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32m_fuseALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/Common/sevensegdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevensegdec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/Common/io/sevensegtimer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevensegtimer
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module mux8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/Common/uram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/mfp_nexys4_ddr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mfp_nexys4_ddr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/addsub32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addsub32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/cla32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/cla_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/cla_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/cla_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/cla_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/cla_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/gp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/RISCVpipelinecode/mux2x5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/mips-cpu/RTL/Common/pulseGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pulseGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/FPU files/fadd/reg_align_cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_align_cal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/FPU files/fadd/fadd_align.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fadd_align
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/FPU files/fadd/reg_cal_norm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_cal_norm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/FPU files/fadd/fadd_cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fadd_cal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/FPU files/fadd/pipelined_fadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelined_fadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/FPU files/fpu/fpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/FPU files/fadd/fadd_norm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fadd_norm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/imports/regfile2w.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile2w
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/fdiv_newton.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fdiv_newton
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/fsqrt_newton.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsqrt_newton
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/pipelined_fmul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelined_fmul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/fmul_norm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fmul_norm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/fmul_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fmul_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/reg_mul_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_mul_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/fmul_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fmul_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/csa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/wallace_26x24_product.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_26x24_product
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/wallace_24x26.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_24x26
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/shift_to_msb_equ_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_to_msb_equ_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/wallace_26x26_product.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_26x26_product
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/reg_add_norm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_add_norm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/shift_even_bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_even_bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/root_newton24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module root_newton24
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/newton24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module newton24
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/wallace_24x24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_24x24
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/wallace_26x24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_26x24
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/wallace_26x26.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_26x26
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/wallace_24x28.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_24x28
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sources_1/imports/Library/wallace_24x28_product.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wallace_24x28_product
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JHU_Classes/RISC_V/riscv-cpu/RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.srcs/sim_1/new/pipelinedcpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelinedcpu_tb

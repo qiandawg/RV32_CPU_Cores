@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="rv32im">
+	</PROJECT>
+</LOG_ROOT>
+=======
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="rv32im">
+	</PROJECT>
+</LOG_ROOT>
+>>>>>>> 6c103d1 (dded RISCVrv31IM 0 single cycle RISCV with multiply and divide. Also)
