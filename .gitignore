@@ -1,0 +1,55 @@
+# Vivado project files
+*.log
+*.jou
+*.lso
+*.cache/
+*.runs/
+*.sim/
+*.dcp
+*.dcp.*
+*.hw/
+*.ip_user_files/
+
+# Checkpoints, bitstreams, hardware exports
+*.bit
+*.bin
+*.elf
+*.hdf
+
+# SDK, BSP, and generated sources
+*.sdk/
+Debug/
+Release/
+
+# Vivado GUI settings and temporary files
+/.Xil/
+/.Xilinx/
+/*.Xilstate
+
+# Simulation outputs
+*.wdb
+*.key
+*.vcd
+*.vgc
+xsim.dir/
+xsim.jou
+xsim.log
+
+# Specific simulation folder for RISCVpipelineRV32IM
+RTL/CPUs/RISCVpipelineRV32IM/RISCVpipelineRV32IM.sim/
+
+# OS/editor temp files
+*~
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Toolchain/firmware build artifacts
+*.o
+*.elf
+*.hex
+*.mem
+
+#crash files
+*.str
